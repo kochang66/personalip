@@ -1,113 +1,95 @@
-
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Alyse Wang - 前端工程師與職涯諮詢師</title>
-  <meta name="description" content="我是 Alyse Wang，前端工程師與職涯諮詢師，提供履歷健檢、網頁開發與企業內訓等服務。">
-  <meta property="og:title" content="Alyse Wang - 前端工程師與職涯諮詢師">
-  <meta property="og:description" content="提供前端轉職、履歷優化、網站開發、企業內訓等專業服務。">
-  <meta property="og:image" content="img/desktop/index/Hero%20Section.png">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kochang66.github.io/personalip/">
-  <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-
-  <!-- 導覽列 -->
-  <header class="header">
-    <ul class="nav">
-      <li><a href="index.html">首頁</a></li>
-      <li><a href="blogDetail.html">部落格</a></li>
-    </ul>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="blog.html">部落格</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Hero 區塊 -->
   <section class="hero">
-    <img class="hero-img" src="img/desktop/index/Hero%20Section.png" alt="Alyse Wang 人物照片" />
+    <img src="img/desktop/index/photo.png" alt="人物介紹照片" class="hero-img" />
     <div class="hero-text">
       <h1>Alyse Wang</h1>
       <p>前端工程師 & 職涯諮詢師</p>
     </div>
   </section>
 
-  <!-- 專業服務與方案 -->
-  <section class="subscribe-section">
-    <div class="subscribe-container">
-      <div class="subscribe-form">
-        <h2>專業服務與方案</h2>
-        <ul>
-          <li><strong>履歷健檢：</strong> 協助凸顯專業能力與準備面試。</li>
-          <li><strong>線上諮詢：</strong> 解決轉職疑問與學習困難。</li>
-          <li><strong>網頁開發：</strong> 建置高效、美觀且響應式的網站。</li>
-          <li><strong>企業內訓：</strong> 協助團隊升級技術力與流程優化。</li>
-        </ul>
+  <section class="intro">
+    <p>嗨，我是 Alyse，一名深耕前端技術的工程師。</p>
+    <p>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。</p>
+  </section>
+
+  <section class="services">
+    <h2>專業服務與方案</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <img src="img/desktop/index/photo.png" alt="履歷健檢" />
+        <h3>履歷健檢</h3>
+        <p>協助你突顯專業技術與核心能力，為你面試加分。</p>
+      </div>
+      <div class="service-item">
+        <img src="img/desktop/index/photo2.png" alt="線上諮詢" />
+        <h3>線上諮詢</h3>
+        <p>快速解決前端瓶頸，提供專業職涯指引。</p>
+      </div>
+      <div class="service-item">
+        <img src="img/desktop/index/photo3.png" alt="網頁開發" />
+        <h3>網頁開發</h3>
+        <p>從需求訪談到架構實作，提供高效能網站。</p>
+      </div>
+      <div class="service-item">
+        <img src="img/desktop/index/photo4.png" alt="企業內訓" />
+        <h3>企業內訓</h3>
+        <p>打造實用前端內訓課程，解決團隊技術痛點。</p>
       </div>
     </div>
   </section>
 
-  <!-- 部落格精選 -->
   <section class="blog-section">
-    <h2 class="blog-title">部落格精選</h2>
-    <ul class="card-list" id="card-area"></ul>
-    <div class="carousel-nav">
-      <button type="button" data-prev-btn><i class="fa-solid fa-circle-left"></i></button>
-      <button type="button" data-next-btn><i class="fa-solid fa-circle-right"></i></button>
+    <h2>部落格精選</h2>
+    <div class="carousel-controls">
+      <button data-prev-btn>&#x25C0;</button>
+      <button data-next-btn>&#x25B6;</button>
     </div>
+    <ul id="card-area" class="blog-cards"></ul>
   </section>
 
-  <!-- 成功案例 -->
-  <section class="subscribe-section">
-    <div class="subscribe-container">
-      <div class="subscribe-form">
-        <h2>職涯諮詢成功案例</h2>
-        <ul>
-          <li><strong>從零轉職：</strong> 打造作品集獲得前端 offer</li>
-          <li><strong>面試突破：</strong> 強化溝通表現與模擬訓練</li>
-          <li><strong>規劃升遷：</strong> 從學習心態到技術目標制定</li>
-        </ul>
-      </div>
-    </div>
+  <section class="subscribe">
+    <h2>訂閱電子報</h2>
+    <form>
+      <input type="text" placeholder="請輸入您的大名" required />
+      <input type="email" placeholder="請輸入您的電子信箱" required />
+      <button type="submit">啟動訂閱</button>
+    </form>
   </section>
 
-  <!-- 訂閱電子報 -->
-  <section class="subscribe-section">
-    <div class="subscribe-container">
-      <form class="subscribe-form">
-        <h2>訂閱電子報</h2>
-        <p>立即訂閱，搶先掌握 <span class="highlight">前端 x 職涯</span> 的獨家資訊！</p>
-        <input type="text" placeholder="請輸入您的大名" />
-        <input type="email" placeholder="請輸入您的電子信箱" />
-        <button type="submit">啟動訂閱</button>
-      </form>
-    </div>
+  <section class="contact">
+    <h2>與我聯繫</h2>
+    <ul>
+      <li><a href="mailto:alysewang@hexschool.com">alysewang@hexschool.com</a></li>
+      <li><img src="img/desktop/index/onlyIcon.png" alt="YouTube"> YouTube</li>
+      <li><img src="img/desktop/index/onlyIcon-1.png" alt="Podcast"> Podcast</li>
+      <li><img src="img/desktop/index/onlyIcon-2.png" alt="Facebook"> Facebook</li>
+      <li><img src="img/desktop/index/icons8-linkedin.png" alt="LinkedIn"> LinkedIn</li>
+      <li><img src="img/desktop/index/onlyIcon-3.png" alt="Instagram"> Instagram</li>
+    </ul>
   </section>
 
-  <!-- 與我聯繫 -->
-  <section class="subscribe-section">
-    <div class="subscribe-container">
-      <div class="subscribe-form">
-        <h2>與我聯繫</h2>
-        <ul>
-          <li>Email：alysewang@hexschool.com</li>
-          <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-          <li><a href="https://podcasts.apple.com/tw/browse" target="_blank">Podcast</a></li>
-          <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-          <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
+  <footer>
     <p>© 2025 Alyse Wang. All rights reserved.</p>
   </footer>
 
-  <script src="https://kit.fontawesome.com/4d02cb8f8a.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>
