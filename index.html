@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alyse Wang - 前端工程師與職涯諮詢師</title>
-  <meta name="description" content="我是 Alyse Wang，前端工程師與職涯諮詢師，提供履歷健檢、網頁開發與企業內訓等服務。" />
-  <meta property="og:title" content="Alyse Wang - 前端工程師與職涯諮詢師" />
-  <meta property="og:description" content="提供前端轉職、履歷優化、網站開發、企業內訓等專業服務。" />
-  <meta property="og:image" content="img/desktop/index/Hero%20Section.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://kochang66.github.io/personalip/" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="description" content="我是 Alyse Wang，前端工程師與職涯諮詢師，提供履歷健檢、網頁開發與企業內訓等服務。">
+  <meta property="og:title" content="Alyse Wang - 前端工程師與職涯諮詢師">
+  <meta property="og:description" content="提供前端轉職、履歷優化、網站開發、企業內訓等專業服務。">
+  <meta property="og:image" content="img/desktop/index/Hero%20Section.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kochang66.github.io/personalip/">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "rjb6hw0416");
+  </script>
 </head>
 <body>
-  <!-- Header -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="#services">服務項目</a></li>
-        <li><a href="#blog">部落格</a></li>
-        <li><a href="#cases">成功案例</a></li>
-        <li><a href="#contact">聯絡我</a></li>
-      </ul>
-    </nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="blog.html">部落格</a></li>
+    </ul>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
-    <h1>嗨，我是 Alyse</h1>
-    <p>前端工程師 & 職涯諮詢師</p>
+    <img src="img/desktop/index/Hero%20Section.png" alt="Alyse Wang">
+    <div>
+      <h1>Alyse Wang</h1>
+      <p>前端工程師 & 職涯諮詢師</p>
+    </div>
   </section>
 
-  <!-- Services Section -->
-  <section id="services">
-    <h2>專業服務與方案</h2>
-    <div class="service-card">
-      <h3>履歷健檢</h3>
-      <p>協助您突顯專業技術與核心能力，讓面試官第一眼就被您吸引。</p>
-    </div>
-    <div class="service-card">
-      <h3>線上諮詢</h3>
-      <p>快速解決前端學習瓶頸，提供專業職涯指引。</p>
-    </div>
-    <!-- 其他服務項目... -->
-  </section>
-
-  <!-- Blog Section -->
-  <section id="blog">
+  <section class="blog">
     <h2>部落格精選</h2>
-    <ul id="card-area" class="card-carousel">
-      <!-- JavaScript 會在此處插入文章卡片 -->
-    </ul>
-    <button data-prev-btn>上一頁</button>
-    <button data-next-btn>下一頁</button>
+    <ul id="card-area" class="card-carousel"></ul>
+    <div class="carousel-controls">
+      <button data-prev-btn><i class="fa-solid fa-circle-left"></i></button>
+      <button data-next-btn><i class="fa-solid fa-circle-right"></i></button>
+    </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>與我聯繫</h2>
-    <p>Email: alysewang@hexschool.com</p>
-    <!-- 其他聯絡方式... -->
+  <section class="subscription">
+    <div class="newsletter-form">
+      <h2>訂閱電子報</h2>
+      <p>立即訂閱，搶先掌握 <span style="color:#0027D5">前端 x 職涯</span> 的獨家資訊！</p>
+      <input type="text" placeholder="請輸入您的大名">
+      <input type="text" placeholder="請輸入您的電子信箱">
+      <button type="button">啟動訂閱</button>
+    </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Alyse Wang. All rights reserved.</p>
+    <p>© 2025 Alyse Wang. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
