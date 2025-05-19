@@ -3,57 +3,121 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>自學前端不用怕：從零開始的三大關鍵 - Alyse Wang 部落格</title>
-  <meta name="description" content="從零開始學前端不再迷惘，掌握三大關鍵快速累積實戰經驗。">
-  <meta property="og:title" content="自學前端不用怕：從零開始的三大關鍵" />
-  <meta property="og:description" content="三個實戰關鍵，助你從初學者成功進階成為前端工程師。" />
-  <meta property="og:image" content="img/desktop/blog/photo1.png" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://example.com/blogDetail.html" />
-  <link rel="icon" href="favicon.ico" />
+  <title>自學前端不用怕：從零開始的三大關鍵</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Header -->
+  <!-- 導覽列 -->
   <header class="header">
     <ul class="nav">
-      <li><a href="index.html">回首頁</a></li>
-      <li><a href="blogDetail.html">部落格</a></li>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="blog.html">部落格</a></li>
     </ul>
   </header>
 
-  <!-- Blog Detail -->
-  <main class="blog-detail">
-    <div class="blog-header">
+  <!-- Hero 圖 + 精選文章 -->
+  <section class="hero-feature">
+    <div class="hero-img">
+      <img src="img/desktop/blog/hero-laptop.png" alt="Laptop">
+    </div>
+    <div class="hero-text">
+      <time>2024/10/21</time>
+      <div class="tags">
+        <span class="tag">前端開發 x 職涯成長</span>
+        <span class="label">最新文章</span>
+      </div>
       <h1>自學前端不用怕：從零開始的三大關鍵</h1>
-      <p class="blog-meta">發布日期：2024/10/21 ・ 標籤：前端開發, 職涯成長</p>
     </div>
+  </section>
 
-    <article class="blog-content">
-      <p>嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。這篇文章我想分享給對前端開發感興趣，卻不知道如何開始的朋友。</p>
-      <h2>關鍵一：選對學習資源</h2>
-      <p>不盲從、不貪多，選擇一套系統化的學習教材或課程，反覆練習 HTML、CSS、JavaScript 是入門的最佳方式。</p>
+  <!-- 前言 -->
+  <section class="section">
+    <h2>前言</h2>
+    <p>嗨，我是 Alyse，一名前端工程師與職涯諮詢師...</p>
+    <p>這篇文章將分享三個實用步驟...</p>
+  </section>
 
-      <h2>關鍵二：實作練習</h2>
-      <p>從小型網頁開始動手做，像是 To-Do List、部落格頁面設計，逐步累積版面設計與 DOM 操作經驗。</p>
+  <!-- 打好基礎 -->
+  <section class="section">
+    <h2>打好基礎：HTML、CSS、JavaScript</h2>
 
-      <h2>關鍵三：建立作品集</h2>
-      <p>將練習成果整理為個人作品集網站，不但能展示能力，也是在求職面試時的重要加分工具。</p>
+    <h3>HTML 基礎語法</h3>
+    <ul>
+      <li>了解語意化標籤：header, main, footer 等。</li>
+      <li>熟悉 SEO 與可讀性。</li>
+    </ul>
 
-      <p>最後，祝福每一位學習者在前端旅程中找出適合自己的節奏，不斷精進，最終實現轉職或升遷目標！</p>
-    </article>
+    <h3>CSS 布局與樣式設計邏輯</h3>
+    <ul>
+      <li>理解 Box Model、Flexbox、Grid。</li>
+      <li>使用 CSS 預處理器。</li>
+    </ul>
 
-    <div class="blog-nav">
-      <a href="index.html">← 回部落格首頁</a>
-      <a href="blogDetail.html">下一篇 →</a>
-    </div>
-  </main>
+    <h3>JavaScript 核心邏輯</h3>
+    <ul>
+      <li>掌握變數、函式、流程控制、DOM 操作。</li>
+      <li>理解 ES6 語法、Closure、原型鏈。</li>
+    </ul>
+  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
+  <!-- 主流框架與工具 -->
+  <section class="section">
+    <h2>掌握主流框架與工具</h2>
+    <ul>
+      <li>React、Vue 基礎應用與元件化。</li>
+      <li>了解模組化與打包工具（Webpack、Vite）。</li>
+      <li>版本控制：Git / GitHub 流程。</li>
+    </ul>
+  </section>
+
+  <!-- 持續練習與參與社群 -->
+  <section class="section">
+    <h2>持續練習與參與社群</h2>
+    <ul>
+      <li>參加線上競賽 / Hackathon。</li>
+      <li>建立 GitHub 作品集。</li>
+      <li>參加社群：Meetup、Facebook 群組、論壇。</li>
+    </ul>
+  </section>
+
+  <!-- 結語 -->
+  <section class="section">
+    <h2>結語</h2>
+    <p>希望這篇文章能幫助你規劃清晰的學習方向。</p>
+    <blockquote>相信的力量，能夠帶你前進。</blockquote>
+  </section>
+
+  <!-- 延伸閱讀 -->
+  <section class="section">
+    <h2>延伸閱讀</h2>
+    <ul>
+      <li>如何成為一位職場即戰力的工程師？</li>
+      <li>學習方法論：從問題中快速成長</li>
+      <li>SEO 初探教學：讓網站被更多人找到</li>
+    </ul>
+  </section>
+
+  <!-- 分頁控制 -->
+  <div class="pagination">
+    <a href="#">〈 上一篇</a>
+    <a href="#">下一篇 〉</a>
+  </div>
+
+  <!-- 聯絡資訊與社群 -->
+  <section class="contact-bar">
+    <p>alysewang@hexschool.com</p>
+    <ul class="social-icons">
+      <li><a href="#"><img src="img/desktop/index/onlyIcon.png" alt="YouTube"></a></li>
+      <li><a href="#"><img src="img/desktop/index/onlyIcon-1.png" alt="Podcast"></a></li>
+      <li><a href="#"><img src="img/desktop/index/onlyIcon-2.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="img/desktop/index/icons8-linkedin.png" alt="LinkedIn"></a></li>
+      <li><a href="#"><img src="img/desktop/index/onlyIcon-3.png" alt="Instagram"></a></li>
+    </ul>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer>
     <p>© 2025 Alyse Wang. All rights reserved.</p>
   </footer>
-
 </body>
 </html>

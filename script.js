@@ -29,10 +29,18 @@ let blogData = [
     intro:
       "對正在求職的前端工程師而言，作品集往往是第一個「說話」的利器。當面試官瀏覽你的網頁作品時，能夠快速了解你的程式邏輯、設計感以及解決問題的思路。我在協助多位同學優化履歷與作品集的過程中，總結出一些關鍵要素，分享給正在打造、升級作品集的你。",
   },
-  // 更多文章可依需求補上
+  {
+    img: "./img/desktop/blog/photo4.png",
+    publishDate: "2024/09/03",
+    isNewest: false,
+    isHotIsue: false,
+    tag: ["#CSS設計", "#視覺體驗"],
+    title: "CSS 魔法大揭密：排版與設計的三大關鍵技巧",
+    intro:
+      "在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。",
+  }
 ];
 
-// 動態產出卡片
 const cardArea = document.getElementById("card-area");
 
 blogData.forEach((item) => {
@@ -68,17 +76,16 @@ blogData.forEach((item) => {
 });
 
 // 輪播控制
-document.addEventListener("DOMContentLoaded", function () {
-  const singleCards = document.querySelectorAll(".single-card");
+function initCarousel() {
+  const cards = document.querySelectorAll(".single-card");
   const prevBtn = document.querySelector("[data-prev-btn]");
   const nextBtn = document.querySelector("[data-next-btn]");
 
   let currentStartIndex = 0;
-  let displayNumber = 0;
+  let displayNumber = 1;
 
-  function displayCards() {
+  function updateDisplayNumber() {
     const screenWidth = window.innerWidth;
-
     if (screenWidth >= 1365) {
       displayNumber = 3;
     } else if (screenWidth >= 930) {
@@ -86,11 +93,14 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       displayNumber = 1;
     }
+  }
 
+  function renderCarousel() {
+    updateDisplayNumber();
     const endIndex = currentStartIndex + displayNumber;
 
-    singleCards.forEach((card, index) => {
-      if (index >= currentStartIndex && index < endIndex) {
+    cards.forEach((card, i) => {
+      if (i >= currentStartIndex && i < endIndex) {
         card.style.display = "block";
       } else {
         card.style.display = "none";
@@ -98,23 +108,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     prevBtn.disabled = currentStartIndex === 0;
-    nextBtn.disabled = endIndex >= singleCards.length;
+    nextBtn.disabled = endIndex >= cards.length;
   }
 
-  prevBtn.addEventListener("click", function () {
+  prevBtn.addEventListener("click", () => {
     if (currentStartIndex > 0) {
       currentStartIndex--;
-      displayCards();
+      renderCarousel();
     }
   });
 
-  nextBtn.addEventListener("click", function () {
-    if (currentStartIndex + displayNumber < singleCards.length) {
+  nextBtn.addEventListener("click", () => {
+    if (currentStartIndex + displayNumber < cards.length) {
       currentStartIndex++;
-      displayCards();
+      renderCarousel();
     }
   });
 
-  window.addEventListener("resize", displayCards);
-  displayCards();
-});
+  window.addEventListener("resize", renderCarousel);
+  renderCarousel();
+}
+
+document.addEventListener("DOMContentLoaded", initCarousel);
