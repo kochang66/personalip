@@ -3,101 +3,143 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>個人介紹</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="unity.css">
-  <link rel="stylesheet" href="index.css">
+  <title>Alyse Wang - 前端工程師與職涯諮詢師</title>
+  <meta name="description" content="我是 Alyse Wang，前端工程師與職涯諮詢師，提供履歷健檢、網頁開發與企業內訓等服務。" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <div class="container">
+  <!-- 導覽列 -->
+  <header class="header">
+    <div class="container">
+      <ul class="nav">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="blog.html">部落格</a></li>
+      </ul>
+    </div>
+  </header>
 
-    <!-- 導覽列 -->
-    <ul class="navbar">
-      <li><a href="index.html">首頁</a></li>
-      <li><a href="blog.html">部落格</a></li>
-    </ul>
-
-    <!-- Hero Banner -->
-    <div class="banner">
-      <div class="banner--img">
-        <img src="./images/index/a0.png" alt="大頭照">
+  <!-- Hero 區塊 -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-img">
+        <img src="./images/index/a0.png" alt="Alyse Hero Image">
       </div>
-      <div class="banner--title">
-        <div class="banner--title--content">
-          <h1>Alyse Wang</h1>
-          <p>前端工程師 & 職涯諮詢師</p>
+      <div class="hero-text">
+        <h1>Alyse Wang</h1>
+        <p>前端工程師 & 職涯諮詢師</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 自我介紹 -->
+  <section class="about">
+    <div class="container about-inner">
+      <p>嗨，我是 Alyse，一名深耕前端技術的工程師。</p>
+      <p>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。</p>
+      <p>邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
+    </div>
+  </section>
+
+  <!-- 專業服務 -->
+  <section class="services">
+    <div class="container">
+      <h2>專業服務與方案</h2>
+      <div class="service-list">
+        <div class="service-card">
+          <img src="./images/index/a2.png" alt="履歷健檢">
+          <h3>履歷健檢</h3>
+          <p>協助突顯專業與核心能力，模擬面試加強表現。</p>
+        </div>
+        <div class="service-card">
+          <img src="./images/index/a3.png" alt="線上諮詢">
+          <h3>線上諮詢</h3>
+          <p>一對一解答學習瓶頸，明確學習與職涯方向。</p>
+        </div>
+        <div class="service-card">
+          <img src="./images/index/a4.png" alt="網頁開發">
+          <h3>網頁開發</h3>
+          <p>打造具美感與效能的網站，完整支援從設計到上線。</p>
+        </div>
+        <div class="service-card">
+          <img src="./images/index/a5.png" alt="企業內訓">
+          <h3>企業內訓</h3>
+          <p>提供實務導向的團隊訓練，快速提升技術與流程。</p>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- 自我介紹 -->
-    <div class="about df">
-      <div class="about--content">
-        <p>嗨，我是 Alyse 一名深耕前端技術的工程師。</p>
-        <p>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
-        <ul class="df">
-          <li><a href="#"><img src="./images/btn/youtube.png" alt="YT" class="icon-m"></a></li>
-          <li><a href="#"><img src="./images/btn/podcast.png" alt="Podcast" class="icon-m"></a></li>
-          <li><a href="#"><img src="./images/btn/facebook.png" alt="FB" class="icon-m"></a></li>
-          <li><a href="#"><img src="./images/btn/linkedin.png" alt="LinkedIn" class="icon-m"></a></li>
-          <li><a href="#"><img src="./images/btn/instagram.png" alt="Instagram" class="icon-m"></a></li>
-        </ul>
+  <!-- 部落格精選 -->
+  <section class="blog">
+    <div class="container">
+      <h2>部落格精選</h2>
+      <ul class="blog-list" id="card-area">
+        <!-- 動態插入文章卡片 -->
+      </ul>
+      <div class="carousel-controls">
+        <button data-prev-btn><i class="fa-solid fa-circle-left"></i></button>
+        <button data-next-btn><i class="fa-solid fa-circle-right"></i></button>
       </div>
     </div>
+  </section>
 
-    <!-- 專業服務 -->
-    <div class="service">
-      <div class="service--title">
-        <h2>專業服務與方案</h2>
+  <!-- 成功案例區塊 -->
+  <section class="success">
+    <div class="container success-inner">
+      <div class="success-left">
+        <img src="./images/index/a7.png" alt="成功案例圖片">
       </div>
-      <ul class="service--list">
-        <li class="df">
-          <div class="service--img">
-            <img src="./images/index/a2.png" alt="履歷健檢">
-          </div>
-          <div class="service--content ml--40">
-            <div class="dash"></div>
-            <h2>履歷健檢</h2>
-            <p>履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
-          </div>
-        </li>
-        <li class="df df-rr">
-          <div class="service--img">
-            <img src="./images/index/a3.png" alt="線上諮詢">
-          </div>
-          <div class="service--content mr--40">
-            <div class="dash"></div>
-            <h2>線上諮詢</h2>
-            <p>想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。</p>
-          </div>
-        </li>
-        <li class="df">
-          <div class="service--img">
-            <img src="./images/index/a4.png" alt="網頁開發">
-          </div>
-          <div class="service--content ml--40">
-            <div class="dash"></div>
-            <h2>網頁開發</h2>
-            <p>想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
-          </div>
-        </li>
-        <li class="df df-rr">
-          <div class="service--img">
-            <img src="./images/index/a5.png" alt="企業內訓">
-          </div>
-          <div class="service--content mr--40">
-            <div class="dash"></div>
-            <h2>企業內訓</h2>
-            <p>想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。</p>
-          </div>
-        </li>
+      <div class="success-right">
+        <img src="./images/index/a8.png" alt="成功案例文字">
+      </div>
+    </div>
+  </section>
+
+  <!-- podcast 區塊 -->
+  <section class="podcast">
+    <div class="container podcast-inner">
+      <img src="./images/index/a9.png" alt="podcast 案例一">
+      <img src="./images/index/a10.png" alt="podcast 案例二">
+    </div>
+  </section>
+
+  <!-- 訂閱電子報 -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <div class="newsletter-left">
+        <img src="./images/index/a11.png" alt="訂閱人物圖片">
+      </div>
+      <div class="newsletter-right">
+        <img src="./images/index/a12.png" alt="訂閱區文字內容">
+        <form class="subscribe-form">
+          <input type="text" placeholder="請輸入您的大名" />
+          <input type="email" placeholder="請輸入您的電子信箱" />
+          <button type="submit">
+            <img src="./images/btn/contact-me.webp" alt="訂閱按鈕">
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <h2>alysewang@hexschool.com</h2>
+      <ul class="footer-icons">
+        <li><a href="#"><img src="./images/btn/youtube.png" alt="YouTube" /></a></li>
+        <li><a href="#"><img src="./images/btn/podcast.png" alt="Podcast" /></a></li>
+        <li><a href="#"><img src="./images/btn/facebook.png" alt="Facebook" /></a></li>
+        <li><a href="#"><img src="./images/btn/linkedin.png" alt="LinkedIn" /></a></li>
+        <li><a href="#"><img src="./images/btn/instagram.png" alt="Instagram" /></a></li>
       </ul>
     </div>
-
-    <!-- Footer -->
-    <footer>
+    <div class="footer-copy">
       <p>© 2025 Alyse Wang. All rights reserved.</p>
-    </footer>
-  </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
