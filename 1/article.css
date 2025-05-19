@@ -1,0 +1,260 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+@media(max-width:992) {
+    .container {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}
+
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    /* border: 1px solid black; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.navbar li a {
+    text-decoration: none;
+
+    font-size: 28px;
+    color: black;
+}
+
+
+.hotnews {
+    width: 100%;
+    display: flex;
+}
+
+.hotnews img {
+    width: 50%;
+    margin-right: 24px;
+}
+
+.hotnews--content {
+    width: 50%;
+    padding: 80px 120px 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+}
+
+.hotnews--content time {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.hotnews--content .tag {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.hotnews--content .tag a {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.hotnews--content .hotnews--tag {
+    background-color: blue;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 50px;
+}
+
+.hotnews--content h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+
+@media(max-width:992px) {
+    .hotnews {
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    .hotnews img {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .hotnews--content {
+        width: 100%;
+        padding: 48px 12px;
+    }
+
+    .hotnews--content time {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .hotnews--content .tag {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .hotnews--content .tag a {
+        text-decoration: none;
+        margin-right: 8px;
+    }
+
+    .hotnews--content .hotnews--tag {
+        background-color: blue;
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 50px;
+    }
+
+    .hotnews--content h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+}
+
+.article--content {
+    padding: 80px 642px;
+}
+
+.article--content li {
+    margin-bottom: 48px;
+}
+
+.article--content img{
+    margin-bottom: 24px;
+}
+
+.article--content li h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 24px;
+}
+
+.article--content li p {
+    font-size: 16px;
+    font-weight: 450;
+    color: black;
+    margin-bottom: 8px;
+}
+.article--content li .content{
+    font-size: 16px;
+    font-weight: 450;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.article--content li p span {
+    color: blue;
+}
+
+.article--content li h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.article--content--tips {
+    padding: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    border-radius: 20px;
+}
+
+.article--content--tips--content{
+    padding: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EDEDED;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.article--content--list{
+    /* background-color: yellow; */
+    margin-bottom: 24px;
+}
+.article--content li .article--content--list p {
+    margin-bottom: 0;
+}
+
+.article--content--btngroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article--content--btngroup button{
+font-size: 16px;
+font-weight: 600;
+padding: 8px 16px;
+color: #4b4b4b;
+display: flex;
+align-items: center;
+background-color: #fff;
+border-radius: 50px;
+}
+
+
+@media(max-width:992px) {
+    .article--content {
+        padding: 64px 12px;
+    }
+
+    .article--content li {
+        margin-bottom: 48px;
+    }
+
+    .article--content li h2 {
+        font-size: 28px;
+        font-weight: bold;
+        color: blue;
+        margin-bottom: 24px;
+    }
+
+    .article--content li p {
+        font-size: 16px;
+        font-weight: 430;
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+
+.contact {
+    padding: 80px 312px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@media(max-width:992px) {
+    .contact {
+        display: none;
+    }
+}
+
+footer {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
