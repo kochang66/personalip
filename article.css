@@ -1,17 +1,46 @@
-.container {
-    max-width: 1920px;
+*,*::before,*::after{
+box-sizing:border-box; /*不計算padding 和 border*/
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+img{
+  width: 100%; /* 寬度適應父層區塊 */
+  height: auto; /* 高度自動 */
+  display: block; /* 把圖片變成區塊元素，清楚底部空隙 */
+  object-fit: cover; /* 讓圖片填滿父層 */ 
+  background-size: cover; /*圖片自動調整大小*/
+}
+
+.icon-social{
+    width: 44px;
+    height: 44px;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.wrap {
+    /* max-width: 1920px; */
+    max-width: 1296px;
     margin: 0 auto;
+    padding: 0 0;
 }
 
 @media(max-width:992) {
-    .container {
+    .wrap {
         max-width: 992px;
         margin: 0 auto;
     }
 }
 
 
-.navbar {
+.nav {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -21,7 +50,7 @@
     padding-bottom: 24px;
 }
 
-.navbar li a {
+.nav li a {
     text-decoration: none;
 
     font-size: 28px;
@@ -29,17 +58,17 @@
 }
 
 
-.hotnews {
+.latest-article {
     width: 100%;
     display: flex;
 }
 
-.hotnews img {
+.latestarticle img {
     width: 50%;
     margin-right: 24px;
 }
 
-.hotnews--content {
+.latest-content {
     width: 50%;
     padding: 80px 120px 80px 0px;
     display: flex;
@@ -48,124 +77,124 @@
     justify-content: center;
 }
 
-.hotnews--content time {
+.latest-content time {
     font-size: 16px;
     margin-bottom: 4px;
 }
 
-.hotnews--content .tag {
+.latest-content .hashtag {
     font-size: 24px;
     margin-bottom: 8px;
 }
 
-.hotnews--content .tag a {
+.latest-content .hashtag a {
     text-decoration: none;
     margin-right: 8px;
 }
 
-.hotnews--content .hotnews--tag {
+.latest-content .popular-article {
     background-color: blue;
     color: #fff;
     padding: 6px 12px;
     border-radius: 50px;
 }
 
-.hotnews--content h1 {
+.latest-content h1 {
     font-size: 28px;
     margin-bottom: 8px;
 }
 
 
 @media(max-width:992px) {
-    .hotnews {
+    .latest-article {
         width: 100%;
         /* display: flex; */
         flex-direction: column;
     }
 
-    .hotnews img {
+    .latest-article img {
         width: 100%;
         margin-right: 0px;
     }
 
-    .hotnews--content {
+    .latest-content {
         width: 100%;
         padding: 48px 12px;
     }
 
-    .hotnews--content time {
+    .latest-content time {
         font-size: 16px;
         margin-bottom: 4px;
     }
 
-    .hotnews--content .tag {
+    .latest-content .post-tag {
         font-size: 24px;
         margin-bottom: 8px;
     }
 
-    .hotnews--content .tag a {
+    .latest-content .post-tag a {
         text-decoration: none;
         margin-right: 8px;
     }
 
-    .hotnews--content .hotnews--tag {
+    .latest-content .popular-article {
         background-color: blue;
         color: #fff;
         padding: 6px 12px;
         border-radius: 50px;
     }
 
-    .hotnews--content h1 {
+    .latest-content h1 {
         font-size: 28px;
         margin-bottom: 8px;
     }
 
 }
 
-.article--content {
+.article-content {
     padding: 80px 642px;
 }
 
-.article--content li {
+.article-content li {
     margin-bottom: 48px;
 }
 
-.article--content img{
+.article-content img{
     margin-bottom: 24px;
 }
 
-.article--content li h2 {
+.article-content li h2 {
     font-size: 28px;
     font-weight: bold;
     color: blue;
     margin-bottom: 24px;
 }
 
-.article--content li p {
+.article-content li p {
     font-size: 16px;
     font-weight: 450;
     color: black;
     margin-bottom: 8px;
 }
-.article--content li .content{
+.article-content li .content{
     font-size: 16px;
     font-weight: 450;
     color: black;
     margin-bottom: 24px;
 }
 
-.article--content li p span {
+.article-content li p span {
     color: blue;
 }
 
-.article--content li h3 {
+.article-content li h3 {
     font-size: 20px;
     font-weight: bold;
     color: black;
     margin-bottom: 12px;
 }
 
-.article--content--tips {
+.article-content-tips {
     padding: 24px;
     font-size: 16px;
     font-weight: bold;
@@ -173,7 +202,7 @@
     border-radius: 20px;
 }
 
-.article--content--tips--content{
+.article-content-tips-content{
     padding: 24px;
     font-size: 16px;
     font-weight: bold;
@@ -181,20 +210,20 @@
     border-radius: 20px;
     margin-bottom: 24px;
 }
-.article--content--list{
+.article-content-list{
     /* background-color: yellow; */
     margin-bottom: 24px;
 }
-.article--content li .article--content--list p {
+.article-content li .article-content-list p {
     margin-bottom: 0;
 }
 
-.article--content--btngroup{
+.article-content-btngroup{
     display: flex;
     justify-content: space-between;
 }
 
-.article--content--btngroup button{
+.article-content-btngroup button{
 font-size: 16px;
 font-weight: 600;
 padding: 8px 16px;
@@ -207,48 +236,41 @@ border-radius: 50px;
 
 
 @media(max-width:992px) {
-    .article--content {
+    .article-content {
         padding: 64px 12px;
     }
 
-    .article--content li {
+    .article-content li {
         margin-bottom: 48px;
     }
 
-    .article--content li h2 {
+    .article-content li h2 {
         font-size: 28px;
         font-weight: bold;
         color: blue;
         margin-bottom: 24px;
     }
 
-    .article--content li p {
+    .article-content li p {
         font-size: 16px;
         font-weight: 430;
         color: black;
     }
 }
 
-
-
-
-
-
-
-
-.contact {
+.contact-info {
     padding: 80px 312px;
     display: flex;
     justify-content: space-between;
 }
 
-.contact p {
+.contact-info p {
     font-size: 32px;
     font-weight: 600;
 }
 
 @media(max-width:992px) {
-    .contact {
+    .contact-info {
         display: none;
     }
 }
