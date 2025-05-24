@@ -70,7 +70,7 @@ img{
     }
 }
 
-.nav {
+.header {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -80,7 +80,7 @@ img{
     padding-bottom: 24px;
 }
 
-.nav li a {
+.header li a {
     text-decoration: none;
 
     font-size: 28px;

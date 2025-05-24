@@ -1,28 +1,20 @@
 *,*::before,*::after{
-box-sizing:border-box; /*不計算padding 和 border*/
+box-sizing:border-box;
 }
 
 body {
     font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
-    font-weight: bold;
+    background-color: #FBFBFB;
 }
 
 img{
-  width: 100%; /* 寬度適應父層區塊 */
-  height: auto; /* 高度自動 */
-  display: block; /* 把圖片變成區塊元素，清楚底部空隙 */
-  object-fit: cover; /* 讓圖片填滿父層 */ 
-  background-size: cover; /*圖片自動調整大小*/
-}
-
-.icon-social{
-    width: 44px;
-    height: 44px;
-}
-
-.flex-row{
-    display: flex;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .wrap {
@@ -32,15 +24,7 @@ img{
     padding: 0 0;
 }
 
-@media(max-width:992) {
-    .wrap {
-        max-width: 992px;
-        margin: 0 auto;
-    }
-}
-
-
-.nav {
+.header {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -50,13 +34,12 @@ img{
     padding-bottom: 24px;
 }
 
-.nav li a {
+.header li a {
     text-decoration: none;
 
     font-size: 28px;
     color: black;
 }
-
 
 .latest-article {
     width: 100%;
@@ -102,53 +85,6 @@ img{
 .latest-content h1 {
     font-size: 28px;
     margin-bottom: 8px;
-}
-
-
-@media(max-width:992px) {
-    .latest-article {
-        width: 100%;
-        /* display: flex; */
-        flex-direction: column;
-    }
-
-    .latest-article img {
-        width: 100%;
-        margin-right: 0px;
-    }
-
-    .latest-content {
-        width: 100%;
-        padding: 48px 12px;
-    }
-
-    .latest-content time {
-        font-size: 16px;
-        margin-bottom: 4px;
-    }
-
-    .latest-content .post-tag {
-        font-size: 24px;
-        margin-bottom: 8px;
-    }
-
-    .latest-content .post-tag a {
-        text-decoration: none;
-        margin-right: 8px;
-    }
-
-    .latest-content .popular-article {
-        background-color: blue;
-        color: #fff;
-        padding: 6px 12px;
-        border-radius: 50px;
-    }
-
-    .latest-content h1 {
-        font-size: 28px;
-        margin-bottom: 8px;
-    }
-
 }
 
 .article-content {
@@ -224,41 +160,17 @@ img{
 }
 
 .article-content-btngroup button{
-font-size: 16px;
-font-weight: 600;
-padding: 8px 16px;
-color: #4b4b4b;
-display: flex;
-align-items: center;
-background-color: #fff;
-border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: #4b4b4b;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
 }
 
-
-@media(max-width:992px) {
-    .article-content {
-        padding: 64px 12px;
-    }
-
-    .article-content li {
-        margin-bottom: 48px;
-    }
-
-    .article-content li h2 {
-        font-size: 28px;
-        font-weight: bold;
-        color: blue;
-        margin-bottom: 24px;
-    }
-
-    .article-content li p {
-        font-size: 16px;
-        font-weight: 430;
-        color: black;
-    }
-}
-
-.contact-info {
+/* .contact-info {
     padding: 80px 312px;
     display: flex;
     justify-content: space-between;
@@ -269,14 +181,68 @@ border-radius: 50px;
     font-weight: 600;
 }
 
-@media(max-width:992px) {
-    .contact-info {
-        display: none;
-    }
-}
-
 footer {
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+} */
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1296px;
+    padding: 80px 0;
+    gap: 0px 24px;
+}
+
+.contact-info p {
+    color:#000;
+    font-size: 32px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-info a:hover {
+    color: fuchsia;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon li {
+    width: 44px;
+    height: 44px;
+}
+
+.social-icon a {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon a:hover {
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  background-color: fuchsia;
+}
+
+.social-icon a:hover img,
+.social-icon a:active img {
+  filter: brightness(0.7);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.footer {
+    color:#000;
+    text-align: center;
+    padding: 24px 0px;
 }
