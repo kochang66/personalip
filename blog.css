@@ -7,6 +7,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    vertical-align: middle;
     background-color: #FBFBFB;
 }
 
@@ -142,21 +143,20 @@ img {
     margin-bottom: 4px;
 }
 
-.latest-content .hashtag {
+.hashtag {
     font-size: 24px;
-    margin-bottom: 8px;
 }
 
-.latest-content .hashtag a {
+.hashtag a {
     text-decoration: none;
     margin-right: 8px;
 }
 
-.latest-content .hashtag a:hover {
+.hashtag a:hover {
     color: fuchsia;
 }
 
-.latest-content .popular-article {
+.popular-article {
     display: inline-block;
     color: #fff;
     font-size: 16px;
@@ -166,7 +166,7 @@ img {
     background-color: #0027D5;
 }
 
-.latest-content .popular-article:hover {
+.popular-article:hover {
     background-color: red;
     color: #fff;
 }
@@ -175,7 +175,6 @@ img {
     color: #000;
     font-size: 28px;
     font-weight: 700;
-    /* margin-top: 8px; */
     margin-bottom: 8px;
 }
 
@@ -250,15 +249,17 @@ img {
 }
 
 .post-list {
-    max-width: 1296px;
-    margin: 40px 0px;
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    max-width: 1296px;
+    /* margin: 40px 0px; */
+    gap: 0 24px;
 }
 
 .post-list li {  /* 桌機：三欄 */
     width: calc((100% - 48px) / 3);
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .post-list img {
@@ -269,17 +270,6 @@ img {
 .post-list time {
     font-size: 16px;
     margin-bottom: 4px;
-}
-
-.post-list .post-tag {
-    display: block;
-    text-decoration: none;
-    color: #0027D5;
-    font-size: 24px;
-}
-
-.post-list .post-tag:hover {
-    color: fuchsia;
 }
 
 .post-list h2 {
