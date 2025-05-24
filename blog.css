@@ -41,7 +41,11 @@ img {
 
 .header a.active {
   color: orange;
+  background: blue;
   font-weight: bold;
+  border: 4px solid red; /* ✅ 加邊框，4px 寬，洋紅色 */
+  border-radius: 6px;         /* ✅ 可選，讓邊框有圓角 */
+  padding: 4px 8px;           /* ✅ 增加內距，避免文字貼邊 */
 }
 
 .header ul {
