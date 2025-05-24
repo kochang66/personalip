@@ -101,21 +101,24 @@ img {
     display: flex;
     align-items: stretch;
     height: 640px;
+    gap: 24px;
 }
 
 .latest-article img {
     display: block;
-    width: 50%;
+    /* width: 50%; */
+    width: calc(50% - 12px);
     height: 100%;
     /* height: auto; */
     object-fit: cover;
-    margin-right: 24px;
+    /* margin-right: 24px; */
 }
 
 .latest-content {
     /* max-width: 636px; */
     display: flex;
-    width: 50%;
+    /* width: 50%; */
+    width: calc(50% - 12px);
     height: 100%;
     padding: 80px 120px 80px 0px;
     flex-direction: column;
