@@ -7,27 +7,30 @@
     <title>文章</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
 <body>
     <div class="header-placeholder"></div>
     <div class="wrap">
         <!-- 頁首-區塊 -->
-        <ul class="header">
-            <li><a href="index.html">首頁</a></li>
-            <li><a href="blog.html">部落格</a></li>
-        </ul>
+        <header class="header">
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="blog.html">部落格</a></li>
+            </ul>
+        </header>
 
         <!-- 最新文章-區塊-->
         <div class="latest-article">
             <img src="./images/article/cover-selflearn.png" alt="自學前端不用怕：從零開始的三大關鍵">
             <div class="latest-content">
-                <time datetime="2024-10-21">2024/10/21</time>
-                <div class="hashtag">
+                <time datetime="2024-10-21" data-aos="fade-up" data-aos-duration="1000">2024/10/21</time>
+                <div class="hashtag" data-aos="fade-up" data-aos-duration="1200">
                     <a href="#">前端開發 x 職涯成長</a>
                     <a href="#"><span class="popular-article">最新文章</span></a>
                 </div>
-                <h1>自學前端不用怕：從零開始的三大關鍵</h1>
+                <h1 data-aos="fade-up" data-aos-duration="1500">自學前端不用怕：從零開始的三大關鍵</h1>
             </div>
         </div>
 
@@ -167,7 +170,7 @@
         </div>
 
         <!-- 頁尾-區塊-->
-        <footer>
+        <footer class="footer">
             <p>© 2025 Alyse Wang. All rights reserved.</p>
         </footer>
     </div>

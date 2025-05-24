@@ -7,8 +7,8 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    vertical-align: middle;
     background-color: #FBFBFB;
+    vertical-align: middle;
 }
 
 img {
@@ -43,9 +43,9 @@ img {
   color: orange;
   background: blue;
   font-weight: bold;
-  border: 4px solid red; /* ✅ 加邊框，4px 寬，洋紅色 */
-  border-radius: 6px;         /* ✅ 可選，讓邊框有圓角 */
-  padding: 4px 8px;           /* ✅ 增加內距，避免文字貼邊 */
+  border: 4px solid #00A600;    /* 加邊框，4px 寬 */
+  border-radius: 6px;         /* 讓邊框有圓角 */
+  padding: 4px 8px;           /* 增加內距，避免文字貼邊 */
 }
 
 .header ul {
@@ -114,6 +114,7 @@ img {
 .latest-article {
     display: flex;
     align-items: stretch;
+    /* height: 640px; */
     height: 560px;
     gap: 24px;
     border: 1px solid #6C757D;
@@ -314,7 +315,6 @@ img {
 }
 
 .pagination .page:hover,
-.pagination .dots:hover,
 .pagination .arrow:hover {
   background-color: #d6e6ff;
   color: #1a5ddc;
@@ -383,7 +383,6 @@ img {
 }
 
 .social-icon a:hover {
-  /* background-color: rgba(0, 0, 0, 0.1); */
   background-color: fuchsia;
 }
 
@@ -420,13 +419,12 @@ img {
     }
 
     .hero-text {
-        width: 100%;
-        min-height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        min-height: 300px;
         padding: 40px 24px;
-        box-sizing: border-box;
     }
 
     .hero-content {
@@ -464,13 +462,12 @@ img {
 
     .post-search {
         display: flex;
+        align-items: center;
         width: 100%;
         max-width: 320px;
         margin-left: 20px;
         /* margin: 0 auto; */
         padding: 12px 16px;
-        align-items: center;
-
     }
 
     .post-search input {

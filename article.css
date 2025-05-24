@@ -38,11 +38,6 @@ img {
     height: 90px;
 }
 
-.header a.active {
-  color: orange;
-  font-weight: bold;
-}
-
 .header ul {
     display: flex;
     justify-content: center;
@@ -104,25 +99,38 @@ img {
     margin-bottom: 4px;
 }
 
-.latest-content .hashtag {
+.hashtag {
     font-size: 24px;
-    margin-bottom: 8px;
 }
 
-.latest-content .hashtag a {
+.hashtag a {
     text-decoration: none;
     margin-right: 8px;
 }
 
-.latest-content .popular-article {
-    background-color: blue;
+.hashtag a:hover {
+    color: fuchsia;
+}
+
+.popular-article {
+    display: inline-block;
     color: #fff;
+    font-size: 16px;
+    font-weight: 700;
     padding: 6px 12px;
-    border-radius: 50px;
+    border-radius: 40px;
+    background-color: #0027D5;
+}
+
+.popular-article:hover {
+    background-color: red;
+    color: #fff;
 }
 
 .latest-content h1 {
+    color: #000;
     font-size: 28px;
+    font-weight: 700;
     margin-bottom: 8px;
 }
 
