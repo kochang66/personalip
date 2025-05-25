@@ -423,6 +423,7 @@ img {
     .latest-article img {
         width: 100%;
         height: auto;
+        margin-top: 16px;
         margin-bottom: 16px;
         display: block;
     }
