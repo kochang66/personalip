@@ -540,6 +540,10 @@ img {
         font-size: 20px;
     }
 
+    .post-search {
+        width: 50%;
+    }
+
     .post-list {
         gap: 16px;
         padding: 0 12px;
