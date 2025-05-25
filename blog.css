@@ -443,6 +443,7 @@ img {
 
     .latest-article {
         flex-direction: column;
+        height: auto;
         padding: 0 16px;
     }
 
@@ -452,10 +453,11 @@ img {
     }
 
     .latest-content {
+        display: block;
         width: 100%;
+        height: auto !important;
         padding: 0;
-        height: auto;
-        justify-content: flex-start;
+        margin-bottom: 32px;
     }
 
     .post-section {
