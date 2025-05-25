@@ -338,7 +338,7 @@ img {
     padding: 24px 0px;
 }
 
-/* 平板直向：992px ~ 1296px */
+/* 平板橫向：992px ~ 1296px：兩欄 */
 @media (min-width: 992px) and (max-width: 1295px) {
   .latest-article,
   .contact-info {
