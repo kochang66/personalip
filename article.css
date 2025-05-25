@@ -348,10 +348,12 @@ img {
     .latest-article {
         flex-direction: column;
         height: auto;
-        padding: 0;
+        padding: 0 16px;
+        box-sizing: border-box;
     }
 
     .latest-article img {
+        display: block;
         width: 100%;
         height: auto;
         margin-bottom: 16px;
