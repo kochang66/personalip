@@ -315,6 +315,7 @@ img {
 }
 
 .pagination .page:hover,
+.pagination .dots:hover,
 .pagination .arrow:hover {
   background-color: #d6e6ff;
   color: #1a5ddc;
