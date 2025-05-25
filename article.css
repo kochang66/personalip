@@ -338,6 +338,16 @@ img {
     padding: 24px 0px;
 }
 
+/* 平板直向：992px ~ 1296px */
+@media (min-width: 992px) and (max-width: 1295px) {
+  .latest-article,
+  .contact-info {
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 /* 平板直向：小於 992px */
 @media (max-width: 992px) {
     .wrap {
