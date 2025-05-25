@@ -414,7 +414,22 @@ img {
     }
 
     .latest-article {
-        padding: 0;
+        /* padding: 0; */
+        flex-direction: column;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    .latest-article img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+        display: block;
+    }
+
+    .latest-content {
+    width: 100%;
+    padding: 0;
     }
 
     .latest-content h1,
