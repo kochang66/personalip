@@ -401,22 +401,12 @@ img {
 
 /* 平板橫向：992px ~ 1295px：兩欄 */
 @media (min-width: 992px) and (max-width: 1295px) {
-    /* .hero,
+    .hero,
     .latest-article,
     .post-section,
     .contact-info {
         padding-left: 24px;
         padding-right: 24px;
-    } */
-
-    .wrap {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-
-    .post-list {
-        max-width: 100%;
-        gap: 24px;
     }
 
     .post-list li {
