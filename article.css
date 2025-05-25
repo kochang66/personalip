@@ -342,13 +342,12 @@ img {
 @media (min-width: 992px) and (max-width: 1295px) {
   .latest-article,
   .contact-info {
-    box-sizing: border-box;
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-/* 平板直向：小於 992px */
+/* 平板直向：小於 992px：單欄 */
 @media (max-width: 992px) {
     .wrap {
         padding-left: 16px;
@@ -419,7 +418,7 @@ img {
     }
 }
 
-/* 手機：小於 767px */
+/* 手機：小於 767px：單欄 */
 @media (max-width: 767px) {
     .wrap {
         padding-left: 12px;
