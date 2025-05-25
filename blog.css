@@ -577,6 +577,11 @@ img {
         gap: 4px;
     }
 
+    .contact-info p {
+    color:#000;
+    font-size: 16px;
+    }
+
     .footer {
         font-size: 14px;
     }
