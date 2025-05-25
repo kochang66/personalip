@@ -338,7 +338,7 @@ img {
     padding: 24px 0px;
 }
 
-/* 平板版：小於 992px */
+/* 平板直向：小於 992px */
 @media (max-width: 992px) {
     .wrap {
         padding-left: 16px;
@@ -356,6 +356,7 @@ img {
         display: block;
         width: 100%;
         height: auto;
+        margin-top: 16px;
         margin-bottom: 16px;
     }
 
@@ -383,7 +384,7 @@ img {
         gap: 24px;
     }
 
-    .post-list li {
+    .post-list li {  /* 平板直向：單欄 */
         width: 100%;
     }
 
@@ -408,7 +409,7 @@ img {
     }
 }
 
-/* 手機版：小於 767px */
+/* 手機：小於 767px */
 @media (max-width: 767px) {
     .wrap {
         padding-left: 12px;
@@ -448,7 +449,7 @@ img {
         gap: 16px;
     }
 
-    .post-list li {
+    .post-list li {  /* 手機：單欄 */
         width: 100%;
     }
 
