@@ -307,20 +307,20 @@ img {
   transition: all 0.3s ease;
 } */
 
-/* .pagination a {
+.pagination a {
     text-decoration: none;
     color: #4B4B4B;
     border: 1px solid #000;
     border-radius: 40px;
-    padding: 5px 15px;
-    transition: all 0.3s ease;
-} */
+    padding: 8px 16px;
+    /* transition: all 0.3s ease; */
+}
 
-/* .pagination a:hover {
+.pagination a:hover {
     background-color: #4B4B4B;
     color: #ffffff;
     transition: all 0.3s ease;
-} */
+}
 
 /* .pagination button {
     font-size: 16px;

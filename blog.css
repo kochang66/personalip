@@ -540,10 +540,6 @@ img {
         font-size: 20px;
     }
 
-    /* .post-search {
-        width: 50%;
-    } */
-
     .post-list {
         gap: 16px;
         padding: 0 12px;
@@ -577,7 +573,7 @@ img {
     }
 
     .contact-info p {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .footer {
