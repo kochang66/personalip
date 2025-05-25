@@ -146,9 +146,6 @@ img {
     overflow: hidden;
 }
 
-/* .post-section {
-    padding: 80px 642px;
-} */
 .post-section {
     margin: 0 auto;
     /* padding: 80px 642px 48px 642px; */
@@ -159,35 +156,18 @@ img {
 .post-list {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 40px 0px; */
-    /* gap: 0 24px; */
-    /* gap: 24px 0; */
 }
 
-/* .post-section li {
-    margin-bottom: 48px;
-} */
 .post-list li {
-    /* width: calc((100% - 48px) / 3); */
-    /* margin-top: 48px; */
     margin-bottom: 48px;
 }
 
-/* .post-section img{
-    margin-bottom: 24px;
-} */
 .post-list img {
     width: 100%;
     margin-top: 0;
     margin-bottom: 24px;
 }
 
-/* .post-section li h2 {
-    font-size: 28px;
-    font-weight: bold;
-    color: blue;
-    margin-bottom: 24px;
-} */
 .post-list h2 {
     color: #0027D5;
     font-size: 28px;
@@ -195,12 +175,6 @@ img {
     margin-bottom: 24px;
 }
 
-/* .post-section li h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    margin-bottom: 12px;
-} */
 .post-list h3 {
     color: #000;
     font-size: 20px;
@@ -208,12 +182,6 @@ img {
     margin-bottom: 12px;
 }
 
-/* .post-section li p {
-    font-size: 16px;
-    font-weight: 450;
-    color: black;
-    margin-bottom: 8px;
-} */
 .post-list p {
     color: #000;
     font-size: 16px;
@@ -282,30 +250,14 @@ img {
     transform: scale(1.03, 1.08);
 }
 
-/* .pagination{
-    display: flex;
-    justify-content: space-between;
-} */
 .pagination {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    /* padding: 8px 20px; */
-    /* gap: 8px; */
     width: 636px;
-    /* border-radius: 40px; */
-    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.05); */
+    gap: 48px;
 }
-
-/* .btn a{
-  text-decoration: none;
-  color: #4B4B4B;
-  border: 1px #000000 solid;
-  border-radius: 30px;
-  padding: 5px 15px;
-  transition: all 0.3s ease;
-} */
 
 .pagination a {
     text-decoration: none;
@@ -313,53 +265,19 @@ img {
     border: 1px solid #000;
     border-radius: 40px;
     padding: 8px 16px;
-    /* transition: all 0.3s ease; */
-}
-
-.pagination a:hover {
-    background-color: #4B4B4B;
-    color: #ffffff;
     transition: all 0.3s ease;
 }
 
-/* .pagination button {
-    font-size: 16px;
-    font-weight: 600;
-    padding: 8px 16px;
-    color: #4b4b4b;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 50px;
-} */
-
-
-
-
-
-
-
-/* .post-section li p span {
-    color: blue;
-} */
-
-
-/* .contact-info {
-    padding: 80px 312px;
-    display: flex;
-    justify-content: space-between;
+.pagination a:hover {
+    background-color: fuchsia;
+    color: #fff;
+    transition: all 0.3s ease;
 }
 
 .contact-info p {
     font-size: 32px;
     font-weight: 600;
 }
-
-footer {
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
-} */
 
 .contact-info {
     display: flex;
@@ -404,7 +322,6 @@ footer {
 }
 
 .social-icon a:hover {
-  /* background-color: rgba(0, 0, 0, 0.1); */
   background-color: fuchsia;
 }
 
@@ -419,4 +336,114 @@ footer {
     color:#000;
     text-align: center;
     padding: 24px 0px;
+}
+
+/* 平板版：小於 992px */
+@media (max-width: 992px) {
+    .wrap {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .latest-article {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .latest-article img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .latest-content {
+        width: 100%;
+        padding: 0;
+        height: auto;
+        margin-bottom: 32px;
+    }
+
+    .main {
+        border-radius: 8px;
+        margin: 0 auto;
+    }
+
+    .post-section {
+        margin-top: 64px;
+        padding: 0 16px;
+
+    }
+
+    .post-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .post-list li {
+        width: 100%;
+    }
+
+    .pagination {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 16px;
+        gap: 48px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 16px;
+        padding: 40px 0;
+    }
+
+    .social-icon {
+        justify-content: center;
+        gap: 16px;
+    }
+}
+
+/* 手機版：小於 767px */
+@media (max-width: 767px) {
+    .wrap {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .latest-article {
+        padding: 0;
+    }
+
+    .latest-content h1,
+    .post-list h2 {
+        font-size: 22px;
+    }
+
+    .post-section {
+        padding: 0 12px;
+    }
+
+    .post-list {
+        gap: 16px;
+    }
+
+    .post-list li {
+        width: 100%;
+    }
+
+    .pagination {
+        gap: 48px;
+        flex-wrap: wrap;
+    }
+
+    .contact-info p {
+        font-size: 18px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
 }
