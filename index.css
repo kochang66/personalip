@@ -735,6 +735,10 @@ img {
         font-size: 52px;
     }
 
+    .hero-content p {
+        font-size: 24px;
+    }
+
     .blog-list {
         display: flex;
         flex-wrap: wrap;
@@ -762,11 +766,6 @@ img {
         justify-content: space-between;
         gap: 24px;
     }
-
-    /* .titleshow-img {
-        width: 745px;
-        margin-left: 192px;
-    } */
 
     .titleshow-img {
         width: 100%;
