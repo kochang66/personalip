@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Google Analytics 4(GA4) 追蹤程式碼，將使用者瀏覽網站的資料回傳給 Google Analytics 進行網站分析 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B9MWSV66K4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B9MWSV66K4');
+    </script>
 </head>
 
 <body>
@@ -28,6 +38,8 @@
             </div>
             <div class="hero-text">
                 <div class="hero-content">
+                    <!-- <h1 data-aos="fade-up" data-aos-duration="1000">Alyse Wang</h1> -->
+                    <!-- <p data-aos="fade-up" data-aos-duration="1500">前端工程師 & 職涯諮詢師</p> -->
                     <h1>Alyse Wang</h1>
                     <p>前端工程師 & 職涯諮詢師</p>
                 </div>
@@ -35,9 +47,8 @@
         </div>
 
         <!-- 關於我-區塊 -->
-        <!-- <div class="about flex-row"> -->
         <div class="about">
-            <div class="about-content ">
+            <div class="about-content" data-aos="fade-up" data-aos-duration="1500">
                 <p>嗨，我是 Alyse 一名深耕前端技術的工程師。</p>
                 <p>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
                 <ul class="social-icon">
@@ -53,380 +64,305 @@
         <!-- 專業服務-區塊 -->
         <div class="service">
             <div class="service-title">
-                <h2>專業服務與方案</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500">專業服務與方案</h2>
             </div>
             <ul class="service-list">
                 <li class="service-img-left">
                     <div class="service-img">
-                        <img src="./images/index/resume.png" alt="服務照片一">
+                        <img src="./images/index/resume.png" alt="履歷健檢圖">
                     </div>
-                    <div class="service-content">
+                    <div class="service-content move-left" data-aos="fade-up" data-aos-duration="1500">
                         <div class="dash"></div>
                         <h2>履歷健檢</h2>
                         <p>履歷是打開機會之門的第一步。讓我協助你突顯專業技術與核心能力，並透過簡短模擬面試為你加分，讓面試官第一眼就被你吸引。</p>
                     </div>
                 </li>
-                <li class="service-img-right">
-
+                <li class="service-img-right margin-top-64">
                     <div class="service-img">
-                        <img src="./images/index/consult.png" alt="服務照片二">
+                        <img src="./images/index/consult.png" alt="線上諮詢圖">
                     </div>
-
-                    <div class="service-content z-10 mr-40">
+                    <div class="service-content move-right" data-aos="fade-up" data-aos-duration="1500">
                         <div class="dash"></div>
                         <h2>線上諮詢</h2>
                         <p>想快速解決前端學習瓶頸，或需要專業職涯指引？透過線上一對一諮詢，我將協助你更有方向地邁進。</p>
                     </div>
                 </li>
-                <li class="service-img-left">
+                <li class="service-img-left margin-top-64">
                     <div class="service-img">
-                        <img src="./images/index/webdev.png" alt="服務照片三">
+                        <img src="./images/index/webdev.png" alt="網頁開發圖">
                     </div>
-                    <div class="service-content ml-40">
+                    <div class="service-content move-left" data-aos="fade-up" data-aos-duration="1500">
                         <div class="dash"></div>
                         <h2>網頁開發</h2>
                         <p>想打造高效能、具美感的網站？我提供從需求訪談到架構實作的一站式服務，讓你的品牌與產品在線上脫穎而出。</p>
                     </div>
                 </li>
-                <li class="service-img-right">
-
+                <li class="service-img-right margin-top-64">
                     <div class="service-img">
-                        <img src="./images/index/training.png" alt="服務照片四">
+                        <img src="./images/index/training.png" alt="企業內訓圖">
                     </div>
-                    <div class="service-content z-10 mr-40">
+                    <div class="service-content move-right" data-aos="fade-up" data-aos-duration="1500">
                         <div class="dash"></div>
                         <h2>企業內訓</h2>
                         <p>想讓團隊快速掌握前端最新技術或優化現有專案流程？我可協助打造專業、實用的企業內訓課程，一次解決團隊痛點。</p>
                     </div>
                 </li>
             </ul>
-            <div class="service-link flex-row">
+            <div class="service-link" data-aos="fade-right" data-aos-duration="1500">
                 <p>聯繫我，取得更多資訊！</p>
                 <a href="#">
-                    <img class="icon-40" src="./images/social/contact-me.webp" alt="聯繫我">
+                    <img src="./images/social/contact-me.webp" alt="聯繫我">
                 </a>
             </div>
         </div>
 
-        <!-- blog 區塊 -->
+        <!-- 部落格-區塊 -->
         <div class="blog">
             <div class="blog-title">
-                <h2>部落格精選</h2>
+                <h2 data-aos="fade-up" data-aos-duration="1500">部落格精選</h2>
+                <!-- <h2>部落格精選</h2> -->
             </div>
-            <div class="blog-list-section">
+            <div class="blog-list-section" data-aos="fade-up-right" data-aos-duration="1500">
+            <!-- <div class="blog-list-section"> -->
                 <ul class="blog-list">
                     <li>
-                        <div class="blog-card card1">
+                        <div class="blog-card">
                             <div class="card-img">
-                                <img src="./images/index/blog-selflearn.png" alt="部落格圖片一" />
+                                <img src="./images/index/blog-selflearn.png" alt="自學前端不用怕：從零開始的三大關鍵">
                             </div>
                             <div class="card-content">
-                                <time datetime>2024/10/21</time>
-                                <div class="post-tag"><a href="#">前端開發 x 職涯成長</a><span class="card-tag">最新文章</span></div>
+                                <time datetime="2024-10-21">2024/10/21</time>
+                                <div class="hashtag">
+                                    <a href="#">前端開發 x 職涯成長</a>
+                                    <a href="#"><span class="card-tag">最新文章</span></a>
+                                </div>
                                 <h2>自學前端不用怕：從零開始的三大關鍵</h2>
-                                <p>嗨，我是
-                                    Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」
-                                    其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！</p>
-                                <button class="card-btn"> 閱讀內文</button>
-
+                                <p>嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」 其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！</p>
+                                <a class="readmore-button" href="#">閱讀內文</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="blog-card card2">
+                        <div class="blog-card">
                             <div class="card-img">
-                                <img src="./images/index/blog-interview.png" alt="部落格圖片二" />
+                                <img src="./images/index/blog-interview.png" alt="前端面試不再慌：破解常見提問的三大策略">
                             </div>
                             <div class="card-content">
-                                <time datetime>2024/07/08</time>
-                                <div class="post-tag"><a href="#">#面試準備 #工程師求職</a><span class="card-tag">人氣文章</span></div>
+                                <time datetime="2024-07-08">2024/07/08</time>
+                                <div class="hashtag">
+                                    <a href="#">#面試準備</a>
+                                    <a href="#">#工程師求職</a>
+                                    <a href="#"><span class="card-tag">人氣文章</span></a>
+                                </div>
                                 <h2>前端面試不再慌：破解常見提問的三大策略</h2>
-                                <p>面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。
-                                </p>
-                                <button class="card-btn"> 閱讀內文</button>
+                                <p>面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官關注的重點並不僅是程式碼本身，更包含問題解決的流程與溝通能力。這篇文章將分享我在面試過程中常見的三大難題，以及如何以更具條理的方式回應，讓你在面試場合中脫穎而出。</p>
+                                <a class="readmore-button" href="#">閱讀內文</a>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="blog-card card3">
+                        <div class="blog-card">
                             <div class="card-img">
-                                <img src="./images/index/blog-cssmagic.png" alt="部落格圖片三" />
+                                <img src="./images/index/blog-cssmagic.png" alt="CSS 魔法大揭密：排版與設計的三大關鍵技巧">
                             </div>
                             <div class="card-content">
-                                <time datetime>2024/09/03</time>
-                                <div class="post-tag"><a href="#">#CSS設計 #視覺體驗</a><span class="card-tag-new"></span></div>
+                                <time datetime="2024-09-03">2024/09/03</time>
+                                <div class="hashtag">
+                                    <a href="#">#CSS設計</a>
+                                    <a href="#">#視覺體驗</a>
+                                    <span class="card-tag-new"></span>
+                                </div>
                                 <h2>CSS 魔法大揭密：排版與設計的三大關鍵技巧</h2>
-                                <p>在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭
-                                    CSS，打造兼具美感與功能性的網頁。</p>
-                                <button class="card-btn"> 閱讀內文</button>
+                                <p>在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時，往往讓人抓破頭皮。這篇文章想跟大家分享我在實務專案中累積的三大技巧，幫助你更有效率地駕馭 CSS，打造兼具美感與功能性的網頁。</p>
+                                <a class="readmore-button" href="#">閱讀內文</a>
                             </div>
                         </div>
                     </li>
                 </ul>
                 <div class="blog-action">
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor"
-                            class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
-                        </svg></a>
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor"
-                            class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
-                        </svg></a>
+                    <a href="#">
+                        <i class="bi bi-arrow-left-circle-fill"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-arrow-right-circle-fill"></i>
+                    </a>
                 </div>
             </div>
-
         </div>
 
-        <!-- 成功案例 -->
-        <div class="success-case">
-            <div class="success-case-title">
-                <h2>職涯諮詢成功案例</h2>
+        <!-- 成功案例-區塊 -->
+        <div class="case">
+            <div class="case-title">
+                <!-- <h2 data-aos="flip-up" data-aos-duration="2000">職涯諮詢成功案例</h2> -->
+                <h2 data-aos="fade-up" data-aos-duration="2000">職涯諮詢成功案例</h2>
             </div>
-            <div class="success-case-content">
-                <div class="success-case-tilteshow">
+            <div class="case-content">
+                <div class="case-tilteshow">
                     <div class="titleshow-img">
                         <img src="./images/index/feature.png" alt="成功案例圖片">
                     </div>
-                    <ul class="success-case-tilteshow-content">
-
-                        <li class="bg-fff ml-219">
-                            <div class="success-case-dash-section">
+                    <ul class="tilteshow-content">
+                        <li class="tilteshow-case1" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="case-dash-section">
                                 <div class="dash"></div>
                             </div>
-                            <p>在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效<span>突破原有的舒適圈。</span>
-                            </p>
+                            <p>在職涯發展的關鍵轉折點上，適時的協助與正確的方向至關重要。藉由職涯諮詢，我可以幫助你加速釐清目標、建立更全面的技術與軟實力，並有效<span>突破原有的舒適圈。</span></p>
                         </li>
 
-                        <li class="bg-f5f5f5 mt-40">
-                            <div class="success-case-dash-section">
+                        <li class="tilteshow-case2" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="case-dash-section">
                                 <div class="dash"></div>
                             </div>
-                            <p class="mb-24">期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
-                            <button type="button" class="success-case-content-btn">立即預約諮詢</button>
+                            <p>期待在下一個新機會中，我能與你一起攜手邁向更高峰！</p>
+                            <a href="#" class="case-button">立即預約諮詢</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
-            <ul class="success-case-list bg-f5f5f5">
-                <li>
-                    <div class="success-case-img">
-                        <img src="./images/index/case1.png" alt="成功案例一" class="icon-80">
+            <ul class="case-list">
+                <li data-aos="fade-up" data-aos-duration="1500">
+                    <div class="case-img">
+                        <img src="./images/index/case1.png" alt="無經驗到前端工程師 Offer">
                     </div>
-                    <div class="success-case-list-h2">
+                    <div class="case-list-h2">
                         <h2>無經驗到前端工程師 Offer</h2>
                     </div>
-                    <div class="success-case-list-pgroup">
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                    <div class="case-list-pgroup">
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>打造前端專案與履歷亮點</p>
-
                         </div>
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>深度強化面試表現</p>
                         </div>
                     </div>
-                    <div class="success-case-list-btn">
+                    <div class="case-list-btn">
                         <a href="#">前往聆聽 podcast</a>
                     </div>
                 </li>
-                <li>
-                    <div class="success-case-img">
-                        <img src="./images/index/case2.png" alt="成功案例二" class="icon-80" />
+                <li data-aos="fade-up" data-aos-duration="1500">
+                    <div class="case-img">
+                        <img src="./images/index/case2.png" alt="轉職迷茫到明確學習規劃">
                     </div>
-                    <div class="success-case-list-h2">
+                    <div class="case-list-h2">
                         <h2>轉職迷茫到明確學習規劃</h2>
                     </div>
-                    <div class="success-case-list-pgroup">
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                    <div class="case-list-pgroup">
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>制訂階段性目標與時間安排</p>
 
                         </div>
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>鼓勵參與前端社群或活動</p>
                         </div>
                     </div>
-                    <div class="success-case-list-btn">
+                    <div class="case-list-btn">
                         <a href="#">前往聆聽 podcast</a>
                     </div>
                 </li>
-                <li>
-                    <div class="success-case-img">
-                        <img src="./images/index/case3.png" alt="成功案例三" class="icon-80">
+                <li data-aos="fade-up" data-aos-duration="1500">
+                    <div class="case-img">
+                        <img src="./images/index/case3.png" alt="面試緊張到從容應對">
                     </div>
-                    <div class="success-case-list-h2">
+                    <div class="case-list-h2">
                         <h2>面試緊張到從容應對</h2>
                     </div>
-                    <div class="success-case-list-pgroup">
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                    <div class="case-list-pgroup">
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>透過面試模擬找出常犯的邏輯漏洞</p>
 
                         </div>
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>討論遇到不熟悉議題時的回應方式</p>
                         </div>
                     </div>
-                    <div class="success-case-list-btn">
+                    <div class="case-list-btn">
                         <a href="#">前往聆聽 podcast</a>
                     </div>
                 </li>
-                <li>
-                    <div class="success-case-img">
-                        <img src="./images/index/case4.png" alt="成功案例四" class="icon-80">
+                <li data-aos="fade-up" data-aos-duration="1500">
+                    <div class="case-img">
+                        <img src="./images/index/case4.png" alt="面試緊張到從容應對">
                     </div>
-                    <div class="success-case-list-h2">
+                    <div class="case-list-h2">
                         <h2>面試緊張到從容應對</h2>
                     </div>
-                    <div class="success-case-list-pgroup">
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                    <div class="case-list-pgroup">
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>擬定進階框架或技術研究目標</p>
 
                         </div>
-                        <div class="success-case-list-p">
-                            <div class="icon-check">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check-lg" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
-                                </svg>
-                            </div>
+                        <div class="case-list-p">
+                            <div class="icon-check"><i class="bi bi-check"></i></div>
                             <p>培養跨團隊溝通與簡報能力</p>
                         </div>
                     </div>
-                    <div class="success-case-list-btn">
+                    <div class="case-list-btn">
                         <a href="#">前往聆聽 podcast</a>
                     </div>
                 </li>
             </ul>
         </div>
 
-        <!-- 電子報 -->
+        <!-- 訂閱電子報-區塊 -->
         <ul class="newslitter">
             <li class="newslitter-img">
-                <img src="./images/index/newsletter-subscribe.png" alt="電子報訂閱">
+                <img src="./images/index/newsletter-subscribe.png" alt="訂閱電子報">
             </li>
             <li class="newlitter-sub">
-                <div class="newlitter-sub-input">
-                    <h2>訂閱電子報</h2>
-                    <p>立即訂閱，搶先掌握<span>前端 x 職涯</span>的獨家資訊！</p>
-                    <input type="text" placeholder="請輸入您的大名">
-                    <input type="text" placeholder="請輸入您的電子信箱">
-                    <button>啟動訂閱</button>
+                <div class="newlitter-content">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">訂閱電子報</h2>
+                    <p data-aos="fade-up" data-aos-duration="1200">立即訂閱，搶先掌握<span>前端 x 職涯</span>的獨家資訊！</p>
+                    <input type="text" placeholder="請輸入您的大名" data-aos="fade-up" data-aos-duration="1300">
+                    <input type="text" placeholder="請輸入您的電子信箱" data-aos="fade-up" data-aos-duration="1400">
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500">啟動訂閱</a>
                 </div>
             </li>
         </ul>
 
-        <!-- 和我聯繫 -->
-        <div class="contact-info">
-            <h2>與我聯繫</h2>
-            <div class="contact-list">
+        <!-- 與我聯繫-區塊 -->
+        <div class="contact">
+            <h2 data-aos="zoom-in-up" data-aos-duration="1500">與我聯繫</h2>
+            <div class="contact-list" data-aos="fade-up-right" data-aos-duration="1500">
                 <p><a href="#" class="email">alysewang@hexschool.com</a> 合作洽談</p>
                 <a href="#" class="contact-a">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-            <div class="contact-list">
-                <p><img src="./images/social/youtube.png" alt="Youtube 職涯諮詢室" class="icon-social">Youtube 職涯諮詢室</p>
+            <div class="contact-list" data-aos="fade-up-right" data-aos-duration="2000">
+                <p><a href="#" class="social-a"><img src="./images/social/youtube.png" alt="Youtube 職涯諮詢室" class="social-img">Youtube 職涯諮詢室</a></p>
                 <a href="#" class="contact-a">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-            <div class="contact-list">
-                <p><img src="./images/social/podcast.png" alt="podcast 職涯諮詢室" class="icon-social">podcast 職涯諮詢室</p>
+            <div class="contact-list" data-aos="fade-up-right" data-aos-duration="2000">
+                <p><a href="#" class="social-a"><img src="./images/social/podcast.png" alt="podcast 職涯諮詢室" class="social-img">podcast 職涯諮詢室</a></p>
                 <a href="#" class="contact-a">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-            <div class="contact-list">
-                <p><img src="./images/social/facebook.png" alt="Facebook 前端社群" class="icon-social">Facebook 前端社群</p>
+            <div class="contact-list" data-aos="fade-up-right" data-aos-duration="2000">
+                <p><a href="#" class="social-a"><img src="./images/social/facebook.png" alt="Facebook 前端社群" class="social-img">Facebook 前端社群</a></p>
                 <a href="#" class="contact-a">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-            <div class="contact-list">
-                <p><img src="./images/social/linkedin.png" alt="linkedin 職涯交流" class="icon-social">linkedin 職涯交流</p>
+            <div class="contact-list" data-aos="fade-up-right" data-aos-duration="2000">
+                <p><a href="#" class="social-a"><img src="./images/social/linkedin.png" alt="linkedin 職涯交流" class="social-img">linkedin 職涯交流</a></p>
                 <a href="#" class="contact-a">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
-            <div class="contact-list">
-                <p><img src="./images/social/instagram.png" alt="Instagram 日常分享" class="icon-social">Instagram 日常分享</p>
+            <div class="contact-list" data-aos="fade-up-right" data-aos-duration="2000">
+                <p><a href="#" class="social-a"><img src="./images/social/instagram.png" alt="Instagram 日常分享" class="social-img">Instagram 日常分享</a></p>
                 <a href="#" class="contact-a">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
+                    <i class="bi bi-arrow-right"></i>
                 </a>
             </div>
 
@@ -438,8 +374,6 @@
         </footer>
     </div>
     
-    <!-- <script src="script.js"></script> -->
-
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
