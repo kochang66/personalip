@@ -102,12 +102,10 @@ img {
     display: flex;
     width: 50%;
     align-items: center;
-    /* justify-content: center; */
     background: url("./images/index/bg-index.png");
 }
 
 .hero-content {
-    /* padding: 300px 80px; */
     padding-left: 80px;
     color: #0027D5;
 }
@@ -126,19 +124,6 @@ img {
     display: flex;
     justify-content: end;
     margin-top: -160px;
-    /* 方法一：margin 負值 */
-    /* margin-top: -160px; */
-
-    /* 方法二：相對定位 */
-    /* position: relative;
-    margin-bottom: -160px;
-    right: 0;
-    bottom: 160px; */
-
-    /* 方法三：絕對定位 */
-    /* position: absolute;
-    right: 0;
-    bottom: -202px; */
 }
 
 .about-content {
@@ -159,7 +144,6 @@ img {
 
 .social-icon {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .social-icon li {
@@ -251,10 +235,6 @@ img {
     margin-right: -40px;
 }
 
-/* .service-content img {
-    width: 40px;
-} */
-
 .service-content h2 {
     color: #000;
     font-size: 28px;
@@ -272,7 +252,6 @@ img {
     justify-content: end;
     margin: 0 auto;
     max-width: 1296px;
-    /* border: 1px solid black; */
     margin-top: 32px;
     margin-bottom: 80px;
 }
@@ -308,7 +287,6 @@ img {
     max-width: 1296px;
     margin: 0 auto;
     gap: 0 24px;
-    /* padding: 0px 68px; */
 }
 
 .blog-list li {  /* 桌機：三欄 */
@@ -432,8 +410,6 @@ img {
 .case-tilteshow {
     width: 100%;
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 .titleshow-img {
@@ -443,13 +419,11 @@ img {
     padding: 24px;
     background-color: #EDEDED;
     margin-left: 192px;
-    /* margin-right: 24px; */
 }
 
 .tilteshow-content {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
 }
 
 .tilteshow-case1 {
@@ -542,7 +516,6 @@ img {
     font-weight: 500;
     color: #4B4B4B;
     gap: 8px;
-    /* margin-bottom: 8px; */
 }
 
 .icon-check {
@@ -701,7 +674,6 @@ img {
 }
 
 .social-a {
-    /* display: inline-block; */
     display: inline-flex;
     color: #000;
     font-size: 28px;
@@ -1102,33 +1074,12 @@ img {
     }
 }
 
-
 /* X 軸出現排除法 */
 
 /* .hero {
   display: none;
 } */
 
-/* .about {
-  display: none;
-} */
-
-/* .service {
-  display: none;
-} */
-
 /* .blog {
-  display: none;
-} */
-
-/* .case {
-  display: none;
-} */
-
-/* .newslitter {
-  display: none;
-} */
-
-/* .contact {
   display: none;
 } */

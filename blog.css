@@ -376,22 +376,22 @@ img {
 }
 
 .social-icon a {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  transition: background-color 0.3s ease;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
 }
 
 .social-icon a:hover {
-  background-color: fuchsia;
+    background-color: fuchsia;
 }
 
 .social-icon a:hover img,
 .social-icon a:active img {
-  filter: brightness(0.7);
-  transform: scale(1.05);
-  transition: all 0.3s ease;
+    filter: brightness(0.7);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 .footer {
