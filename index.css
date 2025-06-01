@@ -316,10 +316,6 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
-/* .blog-card {
-    max-width: 416px;
-} */
-
 .card-img {
     width: 100%;
     margin-bottom: 16px;
@@ -403,7 +399,14 @@ img {
 
 .blog-action a {
     display: inline-block;
+}
+
+.blog-action .left i {
     color: #B2BEF2;
+}
+
+.blog-action .right i {
+    color: #0027D5;
 }
 
 .blog-action .bi {
@@ -643,6 +646,8 @@ img {
 
 .contact {
     padding: 80px 312px;
+    border: 1px solid #6C757D;
+    border-radius: 8px;
 }
 
 .contact h2 {
