@@ -45,7 +45,7 @@
 
 ## 📈 串接服務
 
-整合 [Google Analytics 4 (GA4)](https://analytics.google.com/) 追蹤網站瀏覽資料，並驗證 GA 成功接收資料
+- 整合 [Google Analytics 4 (GA4)](https://analytics.google.com/) 追蹤網站瀏覽資料，並驗證 GA 成功接收資料
 
 ```html
 <!-- Google tag (gtag.js) 設定 -->
