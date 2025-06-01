@@ -957,10 +957,6 @@ img {
         align-items: flex-start;
         gap: 8px;
     }
-
-    .footer {
-        font-size: 14px;
-    }
 }
 
 /* 手機：小於 767px：單欄 */
@@ -1050,11 +1046,11 @@ img {
     }
 
     .contact p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
-    .email {
-        font-size: 20px;
+    .footer {
+        font-size: 14px;
     }
 }
 

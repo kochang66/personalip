@@ -531,7 +531,7 @@ img {
         justify-content: center;
         gap: 16px;
     }
-    }
+}
 
 /* 手機：寬度小於 767px：單欄 */
 @media (max-width: 767px) {
