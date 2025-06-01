@@ -8,7 +8,6 @@ body {
     font-weight: 500;
     line-height: 1.5;
     background-color: #FBFBFB;
-    vertical-align: middle;
 }
 
 img {
@@ -16,6 +15,7 @@ img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    /* vertical-align: middle; */
 }
 
 .wrap {  /* 滿版 1920px 不用特別設定 */
