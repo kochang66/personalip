@@ -1060,6 +1060,7 @@ img {
         gap: 24px;
     }
 
+    .contact-list,
     .contact p {
         font-size: 14px;
     }
