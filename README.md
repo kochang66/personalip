@@ -45,10 +45,10 @@
 
 ## 📈 串接服務
 
-已成功整合 [Google Analytics 4 (GA4)](https://analytics.google.com/) 追蹤網站瀏覽資料，並驗證 GA 成功接收資料。
+整合 [Google Analytics 4 (GA4)](https://analytics.google.com/) 追蹤網站瀏覽資料，並驗證 GA 成功接收資料
 
 ```html
-<!-- 範例 GA 設定片段 -->
+<!-- Google tag (gtag.js) 設定 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
