@@ -9,7 +9,7 @@
 
 [👉 點我前往網站](https://kochang66.github.io/personalip/)
 
-這是【六角學院 2025 年 30 天軟體工程師體驗營】的最終任務作業，目標是製作具備 RWD 響應式設計的個人品牌網站，有三頁 RWD 網頁頁面，畫面不可顯示 X 軸，並串接一個網站服務。✨
+這是【六角學院：2025 年 30 天軟體工程師體驗營】的最終任務作業，目標是製作具備 RWD 響應式設計的個人品牌網站，有三頁 RWD 網頁頁面，畫面不可顯示 X 軸，並串接一個網站服務。✨
 
 ---
 
@@ -21,14 +21,14 @@
 | 響應式設計 | CSS Media Queries |
 | 圖示庫 | Bootstrap Icons |
 | 動畫套件 | AOS.js |
-| 字型 | Google Fonts - Noto Sans TC |
-| 服務串接 | Google Analytics 4 (GA4) |
+| 網頁字型 | Google Fonts - Noto Sans TC（思源黑體 - 繁體中文）|
+| 串接服務 | Google Analytics 4 (GA4) |
 
 ---
 
 ## 🧱 網站頁面結構
 
-- `index.html`：首頁，含 hero 區塊、about、專業服務、部落格精選、成功案例、訂閱電子報、聯絡資訊等區塊
+- `index.html`：首頁，含主視覺圖片、關於我、專業服務、部落格精選、成功案例、訂閱電子報、聯絡資訊等區塊
 - `blog.html`：部落格主頁，列表顯示文章卡片，含搜尋與分頁元件
 - `article.html`：單篇文章詳細頁面
 
