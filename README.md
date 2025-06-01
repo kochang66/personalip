@@ -28,7 +28,7 @@
 
 ## 🧱 網站頁面結構
 
-- `index.html`：首頁，含主視覺圖片、關於我、專業服務、部落格精選、成功案例、訂閱電子報、聯絡資訊等區塊
+- `index.html`：首頁，含主視覺圖片、關於我、專業服務、部落格、成功案例、訂閱電子報、聯絡資訊等區塊
 - `blog.html`：部落格主頁，列表顯示文章卡片，含搜尋與分頁元件
 - `article.html`：單篇文章詳細頁面
 
@@ -36,10 +36,10 @@
 
 ## 🖥️ 響應式設計斷點
 
-- `>= 1296px`：桌機版（三欄）
-- `992px ~ 1295px`：平板橫向（兩欄）
-- `767px ~ 991px`：平板直向（兩欄）
-- `< 767px`：手機版（單欄）
+- `>= 1296px`：桌機版（三欄卡片）
+- `992px ~ 1295px`：平板橫向（兩欄卡片）
+- `767px ~ 991px`：平板直向（兩欄卡片）
+- `< 767px`：手機版（單欄卡片）
 
 ---
 
@@ -62,8 +62,7 @@
 
 ## 📝 作業繳交資訊
 
-- Discord 名稱：`kochang66`
-- 作業等級：Lv3（完成所有頁面 + 成功串接網站服務）
+- 作業等級：LV3（完成所有 RWD 頁面 + 串接一個網站服務）
 - GitHub Repo：[`https://github.com/kochang66/personalip`](https://github.com/kochang66/personalip)
 - GitHub Pages：[`https://kochang66.github.io/personalip/`](https://kochang66.github.io/personalip/)
 
@@ -71,7 +70,7 @@
 
 ## 🙏 特別說明
 
-本作品依據 [Hex School 體驗營設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 製作，並參考部分學員作品進行優化與排版調整。
+本作品依據 [六角學院設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 製作，並進行優化與排版調整。
 
 ---
 
