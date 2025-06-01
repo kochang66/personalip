@@ -60,7 +60,7 @@
 
 ---
 
-## 📝 作業繳交資訊
+## 📝 作業資訊
 
 - 作業等級：LV3（完成所有 RWD 頁面 + 串接一個網站服務）
 - GitHub Repo：[`https://github.com/kochang66/personalip`](https://github.com/kochang66/personalip)
