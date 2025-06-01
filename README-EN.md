@@ -1,4 +1,4 @@
-🔄 [繁體中文版](./README.md)
+🔄 [Traditional Chinese Version](./README.md)
 
 # 🎯 Final Mission - Personal Brand Website
 

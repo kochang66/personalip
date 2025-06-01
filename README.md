@@ -1,4 +1,4 @@
-🔄 [English Version](./README-EN.md)
+🔄 [英文版](./README-EN.md)
 
 # 🎯 最終任務 - 個人品牌網站
 
