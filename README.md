@@ -70,7 +70,7 @@
 
 ## 🙏 特別說明
 
-🔗 本作品依據 [六角學院設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 🎨 製作，並進行優化與排版調整。
+🔗 本作品依據 [六角學院設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 🎨製作，並進行優化與排版調整。
 
 ---
 
