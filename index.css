@@ -731,12 +731,30 @@ img {
         padding-right: 24px;
     }
 
+    .hero-content h1 {
+        font-size: 52px;
+    }
+
     .blog-list {
+        display: flex;
         flex-wrap: wrap;
+        gap: 24px;
+        padding: 0 16px;
     }
 
     .blog-list li {
         width: calc((100% - 24px) / 2); /* 兩欄 */
+    }
+
+    .blog-action {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 24px;
+        gap: 64px;
     }
 
     .case-tilteshow {
@@ -745,9 +763,15 @@ img {
         gap: 24px;
     }
 
-    .titleshow-img {
+    /* .titleshow-img {
         width: 745px;
         margin-left: 192px;
+    } */
+
+    .titleshow-img {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
     }
 
     .tilteshow-case1 {
