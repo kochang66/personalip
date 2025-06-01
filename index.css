@@ -1009,13 +1009,24 @@ img {
     }
 
     .blog-list {
-        /* flex-wrap: wrap; */
         gap: 16px;
         padding: 0 12px;
     }
 
     .blog-list li {  /* 手機：單欄 */
         width: 100%;
+    }
+
+    .blog-list h2 {
+        font-size: 22px;
+    }
+
+    .readmore-button {
+        margin-bottom: 24px;
+    }
+
+    .blog-list p {
+        font-size: 16px;
     }
 
     .blog-action {
@@ -1046,7 +1057,7 @@ img {
     }
 
     .contact p {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .footer {
