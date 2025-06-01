@@ -1021,7 +1021,7 @@ img {
         font-size: 22px;
     }
 
-    .hashtag {
+    .hashtag a {
         font-size: 16px;
     }
 
@@ -1060,9 +1060,9 @@ img {
         gap: 24px;
     }
 
-    .contact-list,
+    .contact-list a,
     .contact p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .footer {
