@@ -7,7 +7,7 @@
 ![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub_Pages-green?style=for-the-badge&logo=github)
 ![Google Analytics 4](https://img.shields.io/badge/Google-Analytics_4-ff6f00?style=for-the-badge&logo=googleanalytics&logoColor=white)
 
-[👉 點我前往網站](https://kochang66.github.io/personalip/)
+👉 [點我前往網站](https://kochang66.github.io/personalip/)
 
 這是【六角學院：2025 年 30 天軟體工程師體驗營】的最終任務作業，目標是製作具備 RWD 響應式設計的個人品牌網站，有三頁 RWD 網頁頁面，畫面不可顯示 X 軸，並串接一個網站服務。✨
 
@@ -70,7 +70,7 @@
 
 ## 🙏 特別說明
 
-🔗 本作品依據 [六角學院設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 🎨製作，並進行優化與排版調整。
+🔗 本作品依據 [六角學院設計稿](https://www.figma.com/design/bBHUp0TeM0yjAlkjtyxQJI/2025ver.-%E9%AB%94%E9%A9%97%E7%87%9F%E5%AD%B8%E7%94%9F%E8%A8%AD%E8%A8%88%E7%A8%BF?node-id=236-1109) 🎨製作，並進行優化與排版調整
 
 ---
 
