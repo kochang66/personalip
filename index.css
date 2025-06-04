@@ -946,7 +946,11 @@ img {
     .newlitter-sub {
         width: 100%;
         height: auto;
-        padding: 40px 16px;
+        padding: 0 16px;
+    }
+
+    .newlitter-sub {
+        padding: 40px 0;
     }
 
     .newlitter-content {
