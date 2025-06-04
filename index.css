@@ -792,6 +792,8 @@ img {
 
     .newlitter-content {
         padding: 40px 16px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .newlitter-sub h2 {
@@ -946,16 +948,17 @@ img {
     .newlitter-sub {
         width: 100%;
         height: auto;
-        padding: 0 16px;
+        padding: 0;
     }
 
     .newlitter-sub {
-        padding: 40px 0;
+        padding: 0;
     }
 
     .newlitter-content {
         padding: 40px 16px;
-        /* margin-top: 40px; */
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .newlitter-sub h2 {
