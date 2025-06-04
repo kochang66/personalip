@@ -60,7 +60,7 @@
 </script>
 ```
 
-![GA4 流量圖](./images/social/ga4.png)
+![GA4 流量圖](./images/social/ga4-cht.png)
 
 ---
 

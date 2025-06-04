@@ -60,6 +60,8 @@
 </script>
 ```
 
+![GA4 Traffic Report](./images/social/ga4-eng.png)
+
 ---
 
 ## 📝 Submission Info
