@@ -550,6 +550,8 @@ img {
 
 .newslitter {
     display: flex;
+    align-items: stretch;
+    height: auto;
 }
 
 .newslitter-img {
@@ -557,13 +559,16 @@ img {
 }
 
 .newlitter-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     background: url('./images/index/bg-index.png');
     padding: 0 80px;
 }
 
 .newlitter-content {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     padding: 80px;
     background-color: #fff;
 }
