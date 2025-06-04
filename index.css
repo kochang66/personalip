@@ -787,7 +787,17 @@ img {
 
     .newlitter-sub {
         flex: 1;
+        padding: 0 16px;
     }
+
+    .newlitter-content {
+        padding: 40px 16px;
+    }
+
+    .newlitter-sub h2 {
+        font-size: 46px;
+    }
+
 }
 
 /* 平板直向以下：小於 992px：兩欄 */
@@ -936,12 +946,12 @@ img {
     .newlitter-sub {
         width: 100%;
         height: auto;
-        padding: 0 16px;
+        padding: 40px 16px;
     }
 
     .newlitter-content {
         padding: 40px 16px;
-        margin-top: 40px;
+        /* margin-top: 40px; */
     }
 
     .newlitter-sub h2 {
