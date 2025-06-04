@@ -738,12 +738,12 @@ img {
     .blog-action {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         margin-left: 0;
         max-width: 100%;
         margin-top: 24px;
-        gap: 64px;
+        gap: 44px;
     }
 
     .case-tilteshow {
@@ -899,12 +899,12 @@ img {
     .blog-action {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         margin-left: 0;
         max-width: 100%;
         margin-top: 24px;
-        gap: 64px;
+        gap: 24px;
     }
 
     .case-tilteshow {
@@ -1061,12 +1061,12 @@ img {
     .blog-action {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         margin-left: 0;
         max-width: 100%;
         margin-top: 24px;
-        gap: 64px;
+        gap: 24px;
     }
 
     .case-tilteshow {
