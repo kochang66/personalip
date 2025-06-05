@@ -1,6 +1,6 @@
 🔄 [英文版](./README-EN.md)
 
-# 🎯 最終任務 - 個人品牌網站
+# 🎯 最終任務 - 個人品牌網站 (Level 3)
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -66,9 +66,9 @@
 
 ## 📝 作業資訊
 
-✅ 作業等級：LV1（完成一頁 RWD 頁面，畫面不可顯示 X 軸）
-✅ 作業等級：LV2（完成兩頁 RWD 頁面，畫面不可顯示 X 軸）
-✅ 作業等級：LV3（完成所有 RWD 頁面 + 串接一個網站工具服務）
+- 作業等級：LV1（完成一頁 RWD 頁面，畫面不可顯示 X 軸）
+- 作業等級：LV2（完成兩頁 RWD 頁面，畫面不可顯示 X 軸）
+- 作業等級：LV3（完成所有 RWD 頁面 + 串接一個網站工具服務）
 - GitHub Repo：[`https://github.com/kochang66/personalip`](https://github.com/kochang66/personalip)
 - GitHub Pages：[`https://kochang66.github.io/personalip/`](https://kochang66.github.io/personalip/)
 

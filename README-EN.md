@@ -1,6 +1,6 @@
 🔄 [Traditional Chinese Version](./README.md)
 
-# 🎯 Final Mission - Personal Brand Website
+# 🎯 Final Mission - Personal Brand Website (Level 3)
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -66,9 +66,9 @@
 
 ## 📝 Submission Info
 
-✅ Assignment Level: LV1 – Complete one RWD page with no horizontal (X-axis) scrolling
-✅ Assignment Level: LV2 – Complete two RWD pages with no horizontal (X-axis) scrolling
-✅ Assignment Level: LV3 – Complete all RWD pages and integrate with one web-based service/tool
+- Assignment Level: LV1 – Complete one RWD page with no horizontal (X-axis) scrolling
+- Assignment Level: LV2 – Complete two RWD pages with no horizontal (X-axis) scrolling
+- Assignment Level: LV3 – Complete all RWD pages and integrate with one web-based service/tool
 - GitHub Repo: [`https://github.com/kochang66/personalip`](https://github.com/kochang66/personalip)
 - GitHub Pages: [`https://kochang66.github.io/personalip/`](https://kochang66.github.io/personalip/)
 
