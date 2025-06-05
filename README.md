@@ -11,7 +11,7 @@
 
 👉 [點我前往網站](https://kochang66.github.io/personalip/)
 
-🎈 這是【 **六角學院：2025 年 30 天軟體工程師體驗營** 】的最終任務作業，目標是製作具備 RWD 響應式設計的個人品牌網站，總共有三頁 RWD 網頁頁面，畫面不可顯示 X 軸，並串接一個網站服務 ✨
+🎈 這是【 **六角學院：2025 年 30 天軟體工程師體驗營** 】的最終任務作業 **LV3**，目標是製作具備 RWD 響應式設計的個人品牌網站，總共有三頁 RWD 網頁頁面，畫面不可顯示 X 軸，並串接一個網站工具服務 ✨
 
 ---
 
@@ -66,7 +66,9 @@
 
 ## 📝 作業資訊
 
-- 作業等級：LV3（完成所有 RWD 頁面 + 串接一個網站服務）
+✅ 作業等級：LV1（完成一頁 RWD 頁面，畫面不可顯示 X 軸）
+✅ 作業等級：LV2（完成兩頁 RWD 頁面，畫面不可顯示 X 軸）
+✅ 作業等級：LV3（完成所有 RWD 頁面 + 串接一個網站工具服務）
 - GitHub Repo：[`https://github.com/kochang66/personalip`](https://github.com/kochang66/personalip)
 - GitHub Pages：[`https://kochang66.github.io/personalip/`](https://kochang66.github.io/personalip/)
 
@@ -80,5 +82,5 @@
 
 ## ⚠️ 注意事項
 
-- **禁止使用 `overflow-x: hidden` 解決 X 軸問題**
+- **禁止使用 `overflow: hidden` 解決 X 軸問題**
 - 所有版面皆符合 RWD 響應式規範
