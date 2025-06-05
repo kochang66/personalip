@@ -74,7 +74,6 @@ img {
     gap: 24px;
     border: 1px solid #6C757D;
     border-radius: 8px;
-    /* overflow: hidden; */
 }
 
 .latest-article img {
@@ -99,7 +98,6 @@ img {
 }
 
 .latest-content time {
-    font-size: 16px;
     margin-bottom: 4px;
 }
 
@@ -144,7 +142,6 @@ img {
     margin: 0 auto;
     border: 1px solid #6C757D;
     border-radius: 8px;
-    /* overflow: hidden; */
 }
 
 .post-section {
@@ -159,7 +156,7 @@ img {
     flex-wrap: wrap;
 }
 
-.post-list li {
+.post-content {
     margin-bottom: 48px;
 }
 
@@ -185,8 +182,6 @@ img {
 
 .post-list p {
     color: #000;
-    font-size: 16px;
-    font-weight: 500;
     margin-bottom: 8px;
 }
 
@@ -211,7 +206,6 @@ img {
 
 .post-list-tips {
     color: #000;
-    font-size: 16px;
     font-weight: 700;
     padding: 24px;
     background-color: #EDEDED;
@@ -219,7 +213,7 @@ img {
     margin-bottom: 24px;
 }
 
-.post-list li .content{
+.post-content .content{
     color: black;
     margin-bottom: 24px;
 }
@@ -394,7 +388,7 @@ img {
         gap: 24px;
     }
 
-    .post-list li {  /* 平板直向：單欄 */
+    .post-content {  /* 平板直向：單欄 */
         width: 100%;
     }
 
@@ -459,7 +453,7 @@ img {
         gap: 16px;
     }
 
-    .post-list li {  /* 手機：單欄 */
+    .post-content {  /* 手機：單欄 */
         width: 100%;
     }
 
