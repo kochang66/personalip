@@ -1,6 +1,6 @@
 🔄 English Version | [Traditional Chinese Version](README.md)
 
-# 🎯 Final Mission - Personal Brand Website
+# 🎯 Final Mission - Personal Brand Website (Level 3)
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -11,7 +11,7 @@
 
 👉 [Visit the Website](https://kochang66.github.io/personalip/)
 
-🎈 This project is the final assignment for the **Hex School 2025 - 30-Day Frontend Bootcamp**, aimed at creating a responsive personal brand website with three RWD pages and integration with an analytics service. ✨
+🎈 This is the final **Level 3** assignment for the **Hex School: 2025 30-Day Software Engineer Bootcamp**. The goal is to build a personal brand website with responsive web design (RWD), consisting of three RWD pages, with no horizontal (X-axis) scrolling, and integration with a web-based service/tool. ✨
 
 ---
 
@@ -66,7 +66,9 @@
 
 ## 📝 Submission Info
 
-- Assignment Level: LV3 (All RWD pages completed + integrated a service)
+- Assignment Level: LV1 – Complete one RWD page with no horizontal (X-axis) scrolling
+- Assignment Level: LV2 – Complete two RWD pages with no horizontal (X-axis) scrolling
+- Assignment Level: LV3 – Complete all RWD pages and integrate with one web-based service/tool
 - GitHub Repo: [`https://github.com/kochang66/personalip`](https://github.com/kochang66/personalip)
 - GitHub Pages: [`https://kochang66.github.io/personalip/`](https://kochang66.github.io/personalip/)
 
@@ -80,5 +82,5 @@
 
 ## ⚠️ Caution
 
-- **Do not use `overflow-x: hidden` to fix horizontal scrolling issues**
+- **Do not use `overflow: hidden` to fix horizontal scrolling issues**
 - All layouts conform to responsive web design (RWD) best practices

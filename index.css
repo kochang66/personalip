@@ -138,7 +138,6 @@ img {
 
 .about-content p {
     font-size: 28px;
-    font-weight: 500;
     margin-bottom: 16px;
 }
 
@@ -299,10 +298,6 @@ img {
     margin-bottom: 16px;
 }
 
-.card-content time {
-    font-size: 16px;
-}
-
 .hashtag {
     display: flex;
     align-items: center;
@@ -460,7 +455,6 @@ img {
 
 .case-content p {
     color: #000;
-    font-size: 16px;
     font-weight: 700;
     margin-bottom: 24px;
 }
@@ -515,8 +509,6 @@ img {
 .case-list-p {
     display: flex;
     align-items: center;
-    font-size: 16px;
-    font-weight: 500;
     color: #4B4B4B;
     gap: 8px;
 }
@@ -538,7 +530,6 @@ img {
 
 .case-list-btn a {
     display: inline-block;
-    font-size: 16px;
     padding: 8px 16px;
     border: 1px solid #000;
     border-radius: 40px;
@@ -586,7 +577,6 @@ img {
 .newlitter-sub p {
     color: #000;
     font-size: 20px;
-    font-weight: 500;
     margin-bottom: 24px;
 }
 
@@ -598,7 +588,6 @@ img {
     display: block;
     padding: 8px 16px;
     font-size: 20px;
-    font-weight: 500;
     color: #4B4B4B;
     width: 100%;
     margin-bottom: 8px;
@@ -1046,16 +1035,8 @@ img {
         font-size: 22px;
     }
 
-    .hashtag a {
-        font-size: 16px;
-    }
-
     .readmore-button {
         margin-bottom: 24px;
-    }
-
-    .blog-list p {
-        font-size: 16px;
     }
 
     .blog-action {
