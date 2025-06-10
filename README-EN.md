@@ -1,4 +1,4 @@
-🔄 English Version | [Traditional Chinese Version](README.md)
+🔄 English | [Traditional Chinese Version](README.md)
 
 # 🎯 Final Mission - Personal Brand Website (Level 3)
 
